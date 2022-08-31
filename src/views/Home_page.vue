@@ -14,6 +14,7 @@ export default {
     LogoPhone,
     MenuItems,
   },
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "/",
 };
 </script>

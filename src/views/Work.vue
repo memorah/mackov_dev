@@ -12,6 +12,7 @@ export default {
   components: {
     WorkContent,
   },
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "/Work",
 };
 </script>

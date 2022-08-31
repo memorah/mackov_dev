@@ -12,6 +12,7 @@ export default {
   components: {
     ProfileContent,
   },
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "/Profile",
 };
 </script>
