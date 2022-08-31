@@ -6,6 +6,7 @@
 </template>
 <script>
 export default {
+  name: "ScreensaverTime",
   methods: {
     currentDateTime() {
       const current = new Date();
