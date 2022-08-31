@@ -29,7 +29,7 @@
               <div class="screen-2">
                 <section>
                   <i class="gg-lock-unlock"></i>
-                  <Time />
+                  <ScreensaverTime />
                   <div class="notification">
                     <div class="notification-bg"></div>
                     <div class="header">
@@ -44,7 +44,7 @@
                       <span>A app was recognised that may be interested</span>
                     </div>
                   </div>
-                  <Cube />
+                  <ScreensaverCube />
                 </section>
                 <div class="s-2-bottom">
                   <span class="unlock-text">Swipe up to open</span>
@@ -60,15 +60,14 @@
   </div>
 </template>
 <script>
-import Time from "./components/Time.vue";
-import Cube from "./components/Cube.vue";
+import ScreensaverTime from "./components/ScreensaverTime.vue";
+import ScreensaverCube from "./components/ScreensaverCube.vue";
 
 export default {
   name: "PhoneMenu",
   components: {
-    Time,
-
-    Cube,
+    ScreensaverTime,
+    ScreensaverCube,
   },
 };
 </script>
