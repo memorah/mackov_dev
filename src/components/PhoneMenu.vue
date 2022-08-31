@@ -62,8 +62,8 @@
 
 <script>
 import LogoPhone from "./LogoPhone.vue";
-import Time from "./Time.vue";
-import Cube from "./Cube.vue";
+import Time from "./ScreensaverTime.vue";
+import Cube from "./ScreensaverCube.vue";
 import BackgroundHome from "./BackgroundHome.vue";
 import MenuItems from "./MenuItems.vue";
 
