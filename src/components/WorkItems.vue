@@ -34,7 +34,7 @@ export default {
 <style scoped>
 .card1 {
   background-image: url("../assets/languagebakerylogo.png");
-  background-position: center; /* Center the image */
+  background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
