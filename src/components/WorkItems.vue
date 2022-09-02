@@ -1,26 +1,24 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <router-link to="/Work/LanguageBakery">
-        <div class="icon-div animation-v1">
-          <div class="card card1"></div>
-          <h2>Language<br />bakery</h2>
-        </div></router-link
-      >
-      <router-link to="/Work/SmilingSnake">
-        <div class="icon-div animation-v1">
-          <div class="card card2"></div>
-          <h2>Smailing<br />Snake</h2>
-        </div></router-link
-      >
+  <div class="row animation-v1">
+    <router-link to="/Work/LanguageBakery">
+      <div class="icon-div animation-v1">
+        <div class="card card1"></div>
+        <h2>Language<br />bakery</h2>
+      </div></router-link
+    >
+    <router-link to="/Work/SmilingSnake">
+      <div class="icon-div animation-v1">
+        <div class="card card2"></div>
+        <h2>Smailing<br />Snake</h2>
+      </div></router-link
+    >
 
-      <router-link to="/Work/GAABarberShop">
-        <div class="icon-div animation-v1">
-          <div class="card card3"></div>
-          <h2>GAA<br />Barbershop</h2>
-        </div></router-link
-      >
-    </div>
+    <router-link to="/Work/GAABarberShop">
+      <div class="icon-div animation-v1">
+        <div class="card card3"></div>
+        <h2>GAA<br />Barbershop</h2>
+      </div></router-link
+    >
   </div>
 </template>
 

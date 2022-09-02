@@ -83,7 +83,11 @@ html {
   background-color: #0f0f0f;
   background-repeat: no-repeat;
   min-height: 100%;
-  background-image: linear-gradient(0deg, #252525 0%, #0f0f0f 74%);
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 body {
   overflow-x: hidden;

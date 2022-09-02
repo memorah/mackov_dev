@@ -1,11 +1,9 @@
 <template>
-  <div class="">
-    <LogoPhone />
+  <LogoPhone />
 
-    <BackButton />
-    <WorkItems />
-    <WorkBackground />
-  </div>
+  <BackButton />
+  <WorkItems />
+  <WorkBackground />
 </template>
 
 <script>
