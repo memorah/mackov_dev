@@ -491,7 +491,7 @@ main {
   width: 100%;
   height: 100%;
   border-radius: 49px;
-  /*background-image: url("https://raw.githubusercontent.com/martinstefanovic/iphone12/main/img/locks.jpg");*/
+
   background-color: transparent;
   background-image: linear-gradient(
     147deg,

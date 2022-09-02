@@ -62,37 +62,37 @@ export default {
   background-image: url("../assets/profile.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 
 .card2 {
   background-image: url("../assets/work.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 .card3 {
   background-image: url("../assets/blog_icon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 .card4 {
   background-image: url("../assets/contacts.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 .card5 {
   background-image: url("../assets/linkedinicon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 .card6 {
   background-image: url("../assets/githubicon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 </style>

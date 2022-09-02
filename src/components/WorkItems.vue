@@ -34,18 +34,18 @@ export default {
   background-image: url("../assets/languagebakerylogo.png");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 .card2 {
   background-image: url("../assets/smilingsnakelogo.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 .card3 {
   background-image: url("../assets/gaalogo.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: contain;
 }
 </style>
