@@ -407,7 +407,7 @@ main {
 
   overflow: hidden;
 }
-.phone-front .border .screen:hover .screen-2 {
+.phone-front:hover .border .screen .screen-2 {
   top: -2000px;
   transition: all 1.6s;
 }
