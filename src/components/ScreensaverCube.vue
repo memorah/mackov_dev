@@ -66,7 +66,7 @@ export default {
 
 .slide.x:after {
   content: "";
-  background-image: url("../assets/Cube/welcome.svg");
+  background-image: url("../assets/Cube/mackovdev.png");
   -webkit-transform: translateZ(100px) rotateZ(-90deg);
   transform: translateZ(100px) rotateZ(-90deg);
 }
