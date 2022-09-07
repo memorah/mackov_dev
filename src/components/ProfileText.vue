@@ -77,7 +77,7 @@
       <li>
         <p>
           <span class="important-text"
-            ><a class="text-link" href="#">GIT</a> |
+            ><a class="text-link" href="#">GitHub</a> |
             <a class="text-link" href="#">Linkedin</a></span
           >
         </p>
