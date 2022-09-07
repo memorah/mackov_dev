@@ -51,7 +51,7 @@ export default {
   display: block;
   width: inherit;
   height: inherit;
-  background: url("../assets/Cube/cube_img1_logo.jpg");
+
   position: absolute;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -66,14 +66,14 @@ export default {
 
 .slide.x:after {
   content: "";
-  background-image: url("../assets/Cube/mackovdev.png");
+  background-image: url("../assets/Cube/cube1.jpg");
   -webkit-transform: translateZ(100px) rotateZ(-90deg);
   transform: translateZ(100px) rotateZ(-90deg);
 }
 
 .slide.x:before {
   content: "";
-  background-image: url("../assets/Cube/welcome2.svg");
+  background-image: url("../assets/Cube/cube4.jpg");
   -webkit-transform: translateZ(-100px) rotateZ(-90deg);
   transform: translateZ(-100px) rotateZ(-90deg);
 }
@@ -85,14 +85,14 @@ export default {
 
 .slide.y:after {
   content: "";
-  background-image: url("../assets/Cube/cube_img1.jpg");
+  background-image: url("../assets/Cube/cube2.jpg");
   -webkit-transform: translateZ(100px) scale(-1);
   transform: translateZ(100px) scale(-1);
 }
 
 .slide.y:before {
   content: "";
-  background-image: url("../assets/Cube/cube_img2.jpg");
+  background-image: url("../assets/Cube/cube5.jpg");
   -webkit-transform: translateZ(-100px);
   transform: translateZ(-100px);
 }
@@ -111,7 +111,7 @@ export default {
 
 .slide.z:before {
   content: "";
-  background-image: url("../assets/Cube/cube_img3.jpg");
+  background-image: url("../assets/Cube/cube3.jpg");
   -webkit-transform: translateZ(-100px);
   transform: translateZ(-100px);
 }
