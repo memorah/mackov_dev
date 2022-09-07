@@ -66,7 +66,7 @@ export default {
 
 .slide.x:after {
   content: "";
-  background-image: url("../assets/Cube/cube1.jpg");
+  background-image: url("../assets/Cube/cube6.jpg");
   -webkit-transform: translateZ(100px) rotateZ(-90deg);
   transform: translateZ(100px) rotateZ(-90deg);
 }
@@ -111,7 +111,7 @@ export default {
 
 .slide.z:before {
   content: "";
-  background-image: url("../assets/Cube/cube3.jpg");
+  background-image: url("../assets/Cube/cube6.jpg");
   -webkit-transform: translateZ(-100px);
   transform: translateZ(-100px);
 }
