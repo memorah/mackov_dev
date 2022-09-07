@@ -67,8 +67,8 @@ export default {
 .slide.x:after {
   content: "";
   background-image: url("../assets/Cube/cube6.jpg");
-  -webkit-transform: translateZ(100px) rotateZ(-90deg);
-  transform: translateZ(100px) rotateZ(-90deg);
+  -webkit-transform: translateZ(100px) rotateZ(90deg);
+  transform: translateZ(100px) rotateZ(90deg);
 }
 
 .slide.x:before {
