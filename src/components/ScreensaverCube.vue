@@ -25,6 +25,8 @@ export default {
   right: 0;
   left: 0;
   width: 200px;
+  max-width: 50vh;
+
   height: 200px;
   margin: auto;
   -webkit-perspective: 600px;
@@ -203,14 +205,14 @@ export default {
   height: 200px;
   background: rgba(0, 0, 0, 0.75);
   position: absolute;
-  top: 60%;
+  top: 80%;
   -webkit-transform: rotateX(90deg);
   transform: rotateX(90deg);
   z-index: -1;
   -webkit-filter: blur(20px);
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="20" /></filter></svg>#filter');
   -webkit-filter: blur(20px);
-  filter: blur(20px);
+  filter: blur(10px);
   left: 0;
   right: 0;
   margin: auto;

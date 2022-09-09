@@ -30,20 +30,6 @@
                 <section>
                   <i class="gg-lock-unlock"></i>
                   <ScreensaverTime />
-                  <div class="notification">
-                    <div class="notification-bg"></div>
-                    <div class="header">
-                      <section>
-                        <div class="red-icon">!</div>
-                        <span>NEW APPLICATION INSTALED</span>
-                      </section>
-                      <span>1m ago</span>
-                    </div>
-                    <div class="body">
-                      <strong>MACKOV.dev</strong>
-                      <span>A app was recognised that may be interested</span>
-                    </div>
-                  </div>
                   <ScreensaverCube />
                 </section>
                 <div class="s-2-bottom">
@@ -225,7 +211,7 @@ h2 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 h1,
 h2,
@@ -548,61 +534,7 @@ main {
   color: rgba(255, 255, 255, 0.4);
   margin-bottom: 0.6rem;
 }
-.screen-2 .notification {
-  width: 95%;
-  border-radius: 10px;
-  padding: 0.6rem;
-  margin-top: 7%;
-  position: relative;
-  overflow: hidden;
-}
-.screen-2 .notification .notification-bg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background-color: rgb(0 0 0 / 30%);
-  z-index: -1;
-}
-.screen-2 .notification .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.screen-2 .notification .header section {
-  display: flex;
-  align-items: center;
-  flex-flow: row;
-}
-.screen-2 .notification .header section span {
-  margin-left: 0.5rem;
-  font-size: 0.7rem;
-}
-.screen-2 .notification .header span {
-  font-size: 0.7rem;
-}
-.screen-2 .notification .header .red-icon {
-  color: #fefeff;
-  border: 1px solid #fefeff;
-  border-radius: 50%;
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-}
-.screen-2 .notification .body {
-  display: flex;
-  flex-flow: column;
-  margin-top: 0.5rem;
-  width: 90%;
-  margin-left: 10px;
-}
-.screen-2 .notification .body span,
-.screen-2 .notification .body strong {
-  font-size: 0.8rem;
-}
+
 .phone-back {
   width: 100%;
   height: 100%;
