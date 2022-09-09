@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <LogoPhone />
-
     <BackButton />
     <WorkItems />
     <WorkBackground />
