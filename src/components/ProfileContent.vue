@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <LogoPhone />
-    <AboutBackground />
+    <ProfileBackground />
     <BackButton />
     <ProfileText />
   </div>
@@ -10,7 +10,7 @@
 <script>
 import LogoPhone from "./LogoPhone.vue";
 
-import AboutBackground from "./AboutBackground.vue";
+import ProfileBackground from "./ProfileBackground.vue";
 import ProfileText from "./ProfileText.vue";
 import BackButton from "./BackButton.vue";
 
@@ -19,7 +19,7 @@ export default {
   components: {
     LogoPhone,
 
-    AboutBackground,
+    ProfileBackground,
     ProfileText,
     BackButton,
   },

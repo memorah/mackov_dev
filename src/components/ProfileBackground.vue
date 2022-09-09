@@ -1,12 +1,12 @@
 <template>
-  <div class="position-absolute main-bg-desktop">
-    <span class="" data-text="DVLP">DVLP</span>
+  <div class="position-absolute main-bg">
+    <span class="" data-text="ABOUT">ABOUT</span>
   </div>
 </template>
 
 <script>
 export default {
-  name: "BackgroundHomeDesktop",
+  name: "ProfileBackground",
 };
 </script>
 
