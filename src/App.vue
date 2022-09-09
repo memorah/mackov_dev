@@ -64,7 +64,9 @@ export default {
   font-family: Anurati;
   src: url(./fonts/Anurati-Regular.otf);
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 html {
   background-color: #0f0f0f;
   background-repeat: no-repeat;
@@ -240,9 +242,10 @@ p {
 }
 .text-content ul {
   padding-top: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-inline: 5%;
+  overflow-y: scroll;
 }
+
 .text-content ul li {
   text-align: left;
   margin-bottom: 1.5rem;
@@ -278,7 +281,6 @@ li img {
 @media only screen and (max-height: 690px) {
   .text-content ul {
     margin-top: 2rem;
-    overflow-y: scroll;
   }
 }
 /*phone styles*/
@@ -488,7 +490,7 @@ main {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  display: flex; /*change to flex 
+  display: none; /*change to flex 
   !important
   !important
   !important

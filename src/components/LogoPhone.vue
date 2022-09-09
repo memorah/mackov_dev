@@ -11,8 +11,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .glytch-logo {
-  top: 2rem;
-  left: 2rem;
+  top: 5%;
+  left: 5%;
   position: absolute;
   background-size: 100%;
   width: 2rem;
