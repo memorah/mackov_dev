@@ -217,6 +217,11 @@ p {
 }
 h1,
 h2,
+ul {
+  margin-block-start: 0;
+}
+h1,
+h2,
 p {
   text-shadow: 0px 7px 10px #100e0e;
 }
@@ -248,7 +253,7 @@ p {
 
 .text-content ul li {
   text-align: left;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .text {
