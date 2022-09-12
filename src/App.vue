@@ -64,9 +64,10 @@ export default {
   font-family: Anurati;
   src: url(./fonts/Anurati-Regular.otf);
 }
-/*::-webkit-scrollbar {
+body ::-webkit-scrollbar {
   display: none;
-}*/
+}
+
 html {
   background-color: #0f0f0f;
   background-repeat: no-repeat;
@@ -213,7 +214,7 @@ h2 {
 }
 
 p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   margin-block-start: 0rem;
   margin-block-end: 0em;
 }
