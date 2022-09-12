@@ -22,7 +22,7 @@
     <router-link to="/Work/GAABarberShop">
       <div class="icon-div animation-v1">
         <div class="card card4"></div>
-        <h2>Wireframes<br />Design</h2>
+        <h2>Wire<br />frames</h2>
       </div></router-link
     >
   </div>
