@@ -8,16 +8,18 @@
         <p>
           <span class="text">Mobile first wireframe, home page UI&UX | </span
           ><span class="important-text">
-            <a class="text-link" href="#">Download</a></span
-          >
+            <a
+              class="text-link"
+              href="/assets/downloads/car_dealer_wireframe.xd"
+              download
+              >Download</a
+            >
+          </span>
         </p>
       </li>
       <li>
         <h2>Design</h2>
-        <p class="text">
-          Complete web design, except for the logo | Color palette | Application
-          look | UI&UX
-        </p>
+        <p class="text">Complete home page wireframe for car dealer web site</p>
       </li>
       <li>
         <h2>Main tools</h2>
