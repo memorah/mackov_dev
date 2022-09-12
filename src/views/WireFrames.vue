@@ -1,0 +1,30 @@
+<template>
+  <div class="">
+    <LogoPhone />
+    <BackButton />
+    <WireframesContent />
+    <WorkBackground />
+  </div>
+</template>
+
+<script>
+import LogoPhone from "@/components/LogoPhone.vue";
+
+import WorkBackground from "@/components/WorkBackground.vue";
+import WireframesContent from "@/components/WireframesContent.vue";
+import BackButton from "@/components/BackButton.vue";
+
+export default {
+  name: "WireFrames",
+  components: {
+    LogoPhone,
+    WorkBackground,
+    WireframesContent,
+    BackButton,
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+
+<style scoped></style>

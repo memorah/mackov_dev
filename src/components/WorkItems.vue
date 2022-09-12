@@ -19,7 +19,7 @@
         <h2>GAA<br />Barbershop</h2>
       </div></router-link
     >
-    <router-link to="/Work/GAABarberShop">
+    <router-link to="/Work/WireFrames">
       <div class="icon-div animation-v1">
         <div class="card card4"></div>
         <h2>Wire<br />frames</h2>
