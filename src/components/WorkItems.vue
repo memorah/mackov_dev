@@ -19,6 +19,12 @@
         <h2>GAA<br />Barbershop</h2>
       </div></router-link
     >
+    <router-link to="/Work/GAABarberShop">
+      <div class="icon-div animation-v1">
+        <div class="card card4"></div>
+        <h2>Wireframes<br />Design</h2>
+      </div></router-link
+    >
   </div>
 </template>
 
@@ -44,6 +50,12 @@ export default {
 }
 .card3 {
   background-image: url("../assets/gaalogo.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+.card4 {
+  background-image: url("../assets/WF-icon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
