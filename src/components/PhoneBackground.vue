@@ -1,5 +1,5 @@
 <template>
-  <div class="position-fixed main-bg"><span>DVLP</span></div>
+  <div class="position-absolute main-bg"><span>DVLP</span></div>
 </template>
 
 <script>
