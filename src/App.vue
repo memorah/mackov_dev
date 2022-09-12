@@ -64,9 +64,9 @@ export default {
   font-family: Anurati;
   src: url(./fonts/Anurati-Regular.otf);
 }
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   display: none;
-}
+}*/
 html {
   background-color: #0f0f0f;
   background-repeat: no-repeat;
@@ -214,6 +214,11 @@ h2 {
 
 p {
   font-size: 0.7rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0em;
+}
+li p {
+  margin-block-end: 1rem;
 }
 h1,
 h2,
@@ -248,7 +253,6 @@ p {
 .text-content ul {
   padding-top: 0;
   margin-inline: 5%;
-  overflow-y: scroll;
 }
 
 .text-content ul li {
@@ -398,7 +402,8 @@ main {
   height: 97%;
   border-radius: 49px;
 
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .phone-front:hover .border .screen .screen-2 {
   top: -2000px;
@@ -673,6 +678,7 @@ main {
   justify-content: space-between;
   width: 100%;
   z-index: inherit;
+  margin-top: 1.5rem;
 }
 /* The animation code */
 @keyframes animation-v1 {
@@ -940,15 +946,6 @@ h2 {
   .linkedin-icon img {
     width: 25px;
     transition: 0.3s ease-out;
-  }
-  h1,
-  h2 {
-    margin-block-start: 10px;
-    margin-block-end: 0em;
-  }
-  p {
-    margin-block-start: 5px;
-    margin-block-end: 5px;
   }
 }
 @media screen and (max-width: 900px) {

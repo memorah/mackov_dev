@@ -11,8 +11,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .glytch-cancel {
-  top: 2rem;
-  right: 2rem;
+  top: 5%;
+  right: 5%;
   background-size: 100%;
   width: 1.5rem;
   height: 1.5rem;
