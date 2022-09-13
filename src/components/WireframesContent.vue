@@ -33,6 +33,28 @@
         <img src="../assets/WF-cardealer.png" alt="car dealer wireframe" />
       </li>
     </ul>
+    <ul class="animation-v1">
+      <li>
+        <h1>Project | Car dealer wireframe</h1>
+        <p>
+          <span class="text">Mobile first wireframe, home page UI&UX | </span
+          ><span class="important-text">
+            <a
+              class="text-link"
+              href="/assets/downloads/car_dealer_wireframe.xd"
+              download
+              >Download</a
+            >
+          </span>
+        </p>
+      </li>
+      <li>
+        <img
+          src="../assets/WF-group-of-companies.png"
+          alt="car dealer wireframe"
+        />
+      </li>
+    </ul>
   </div>
 </template>
 
