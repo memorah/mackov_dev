@@ -504,7 +504,7 @@ main {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  display: none; /*change to flex 
+  display: flex; /*change to flex 
   !important
   !important
   !important
