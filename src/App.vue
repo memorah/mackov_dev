@@ -23,6 +23,8 @@
               </div>
 
               <div class="screen-1">
+                <LogoPhone />
+                <BackButton />
                 <router-view />
               </div>
 
@@ -48,12 +50,16 @@
 <script>
 import ScreensaverTime from "./components/ScreensaverTime.vue";
 import ScreensaverCube from "./components/ScreensaverCube.vue";
+import LogoPhone from "./components/LogoPhone.vue";
+import BackButton from "./components/BackButton.vue";
 
 export default {
   name: "PhoneMenu",
   components: {
     ScreensaverTime,
     ScreensaverCube,
+    LogoPhone,
+    BackButton,
   },
 };
 </script>
