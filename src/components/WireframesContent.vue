@@ -4,7 +4,7 @@
     <!-- Menu items -->
     <ul class="animation-v1">
       <li>
-        <h1>Project | Car dealer wireframe</h1>
+        <h1>Project | Car Dealer wireframe</h1>
         <p>
           <span class="text">Mobile first wireframe, home page UI&UX | </span
           ><span class="important-text">
@@ -19,7 +19,10 @@
       </li>
       <li>
         <h2>Design</h2>
-        <p class="text">Complete home page wireframe for car dealer web site</p>
+        <p class="text">
+          Complete car dealer web site wireframe, with product cards, main
+          services sections, subscription form and footer
+        </p>
       </li>
       <li>
         <h2>Main tools</h2>
@@ -35,9 +38,9 @@
     </ul>
     <ul class="animation-v1">
       <li>
-        <h1>Project | Car dealer wireframe</h1>
+        <h1>Project | Company Group wireframe</h1>
         <p>
-          <span class="text">Mobile first wireframe, home page UI&UX | </span
+          <span class="text">Desktop first wireframe, home page UI&UX | </span
           ><span class="important-text">
             <a
               class="text-link"
@@ -46,6 +49,14 @@
               >Download</a
             >
           </span>
+        </p>
+      </li>
+      <li>
+        <h2>Design</h2>
+        <p class="text">
+          Complete home page wireframe, hero section with video background,
+          simple about & partners section, team slider, offer gallery section,
+          events slider, time zones , footer with contact form.
         </p>
       </li>
       <li>
