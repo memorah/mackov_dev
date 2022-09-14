@@ -730,10 +730,8 @@ main {
 .card:before {
   content: "";
   position: absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   mix-blend-mode: hard-light;
   background-image: inherit;
   background-size: 100%;

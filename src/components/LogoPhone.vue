@@ -21,7 +21,7 @@ export default {
   transition: 0.3s ease-out;
   background-size: 100%;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: 2;
 }
 
 .glytch-logo:before {
