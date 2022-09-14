@@ -1,5 +1,6 @@
 <template>
   <div class="">
+    <BackButton />
     <SmilingSnakeContent />
     <WorkBackground />
   </div>
@@ -8,12 +9,13 @@
 <script>
 import WorkBackground from "@/components/WorkBackground.vue";
 import SmilingSnakeContent from "@/components/SmilingSnakeContent.vue";
-
+import BackButton from "@/components/BackButton.vue";
 export default {
   name: "LanguageBakery",
   components: {
     WorkBackground,
     SmilingSnakeContent,
+    BackButton,
   },
 };
 </script>

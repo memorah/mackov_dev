@@ -24,7 +24,6 @@
 
               <div class="screen-1">
                 <LogoPhone />
-                <BackButton />
                 <router-view />
               </div>
 
@@ -51,7 +50,6 @@
 import ScreensaverTime from "./components/ScreensaverTime.vue";
 import ScreensaverCube from "./components/ScreensaverCube.vue";
 import LogoPhone from "./components/LogoPhone.vue";
-import BackButton from "./components/BackButton.vue";
 
 export default {
   name: "PhoneMenu",
@@ -59,7 +57,6 @@ export default {
     ScreensaverTime,
     ScreensaverCube,
     LogoPhone,
-    BackButton,
   },
 };
 </script>
@@ -464,7 +461,7 @@ main {
 }
 .screen-1 {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   border-radius: 49px;
   background-image: linear-gradient(115deg, #252525 0%, #0f0f0f 74%);
   z-index: 0;
@@ -889,7 +886,7 @@ h2 {
   align-items: flex-start;
   justify-content: flex-start;
   overflow-x: hidden;
-  margin-top: 6rem;
+  margin-top: 7rem;
   z-index: 1;
 }
 @media only screen and (max-width: 600px) {

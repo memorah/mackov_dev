@@ -1,5 +1,5 @@
 <template>
-  <a class="position-absolute glytch-cancel" @click="$router.go(-1)"></a>
+  <a class="position-absolute glytch-cancel" @click="$router.go(-1)"> </a>
 </template>
 
 <script>

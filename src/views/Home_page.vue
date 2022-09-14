@@ -15,4 +15,8 @@ export default {
   name: "/",
 };
 </script>
-<style scoped></style>
+<style scoped>
+.glytch-cancel {
+  display: none;
+}
+</style>
