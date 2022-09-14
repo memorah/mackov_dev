@@ -44,7 +44,7 @@
           ><span class="important-text">
             <a
               class="text-link"
-              href="/assets/downloads/car_dealer_wireframe.xd"
+              href="/assets/downloads/Company_group_WF.xd"
               download
               >Download</a
             >
