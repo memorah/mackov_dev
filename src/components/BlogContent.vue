@@ -244,7 +244,7 @@ h2.blog {
   background-repeat: no-repeat;
   border-radius: inherit;
 }
-.blog-card:hover:before {
+.blog-card:before {
   animation: animate 0.9s linear infinite;
 }
 
