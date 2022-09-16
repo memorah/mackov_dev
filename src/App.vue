@@ -486,7 +486,7 @@ main {
 .screen-2 {
   width: 100%;
   height: 100%;
-  border-radius: 4.5vmin;
+  border-radius: 4vmin;
 
   background-color: transparent;
   background-image: linear-gradient(
