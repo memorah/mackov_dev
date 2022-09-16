@@ -209,13 +209,13 @@ a {
   z-index: inherit;
 }
 
-h1 {
-  font-size: 1.1rem;
-}
+h1,
 h2 {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 400;
+  margin-top: 10px;
 }
-
 p {
   font-size: 0.9rem;
   margin-block-start: 0rem;
@@ -321,33 +321,33 @@ main {
   box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5) inset;
   background: #6b6b6b;
   background: linear-gradient(144deg, rgb(226, 223, 222) 0%, #adadad 100%);
-  width: 10px;
-  height: 35px;
+  width: 4px;
+  height: 105px;
   position: absolute;
-  top: 15vh;
-  left: -5px;
+  top: 20vh;
+  right: -4px;
   border-radius: 2px;
 }
 .iphone-12 .buttons .volume-up {
   box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5) inset;
   background: #333333;
   background: linear-gradient(144deg, rgb(226, 223, 222) 0%, #adadad 100%);
-  width: 10px;
+  width: 4px;
   height: 55px;
   position: absolute;
-  top: 22vh;
-  left: -5px;
+  top: 20vh;
+  left: -4px;
   border-radius: 2px;
 }
 .iphone-12 .buttons .volume-down {
   box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5) inset;
   background: #474747;
   background: linear-gradient(144deg, rgb(226, 223, 222) 0%, #adadad 100%);
-  width: 10px;
+  width: 4px;
   height: 55px;
   position: absolute;
-  top: 30.4vh;
-  left: -5px;
+  top: 28.4vh;
+  left: -4px;
   border-radius: 2px;
 }
 .phone-front {
@@ -356,7 +356,7 @@ main {
   height: 100%;
   background-color: #adadad;
   box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5) inset;
-  border-radius: 65px;
+  border-radius: 6.5vmin;
   position: relative;
   display: flex;
   justify-content: center;
@@ -395,7 +395,7 @@ main {
   width: 97.5%;
   height: 98.5%;
   background-color: #000004;
-  border-radius: 60px;
+  border-radius: 6vmin;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -404,7 +404,7 @@ main {
   position: relative;
   width: 93.5%;
   height: 97%;
-  border-radius: 49px;
+  border-radius: 4.5vmin;
 
   overflow-x: hidden;
   overflow-y: scroll;
@@ -462,7 +462,7 @@ main {
 .screen-1 {
   width: 100%;
   min-height: 100%;
-  border-radius: 49px;
+  border-radius: 4.5vmin;
   background-image: linear-gradient(115deg, #252525 0%, #0f0f0f 74%);
   z-index: 0;
   display: flex;
@@ -470,18 +470,6 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-.screen-1 .ipod-battery {
-  background-color: white;
-  height: fit-content;
-  padding: 0.2em 1.5em;
-  border-radius: 100px;
-  text-align: center;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  margin-top: 9%;
-}
-
 .screen-1 .navigation-bar {
   width: 35%;
   height: 4px;
@@ -492,7 +480,7 @@ main {
 .screen-2 {
   width: 100%;
   height: 100%;
-  border-radius: 49px;
+  border-radius: 4.5vmin;
 
   background-color: transparent;
   background-image: linear-gradient(
@@ -839,17 +827,53 @@ main {
   margin: 1vh;
   z-index: 1;
 }
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1rem;
-  margin-top: 10px;
-}
 .icon-div h2 {
   text-align: center;
 }
-
-@media screen and (max-width: 900px) {
+@media screen and (max-height: 800px) {
+  .main-bg {
+    padding-top: 0;
+    font-size: 8.5rem;
+    line-height: 8.5rem;
+  }
+}
+@media screen and (max-height: 700px) {
+  .iphone-12 .buttons .sound-off {
+    height: 80px;
+  }
+  .iphone-12 .buttons .volume-up,
+  .iphone-12 .buttons .volume-down {
+    height: 45px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .iphone-12 .buttons .sound-off {
+    height: 70px;
+  }
+  .iphone-12 .buttons .volume-up,
+  .iphone-12 .buttons .volume-down {
+    height: 35px;
+  }
+  .slider {
+    display: none;
+  }
+  .screen-2 .gg-lock-unlock {
+    color: 2;
+    margin-top: 50%;
+  }
+  .main-bg {
+    font-size: 7rem;
+    line-height: 7rem;
+  }
+}
+@media screen and (max-height: 450px) {
+  .iphone-12 .buttons .sound-off,
+  .iphone-12 .buttons .volume-up,
+  .iphone-12 .buttons .volume-down {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px), (max-height: 450px) {
   .iphone-12,
   .phone-front .border,
   .phone-front .border .screen {
