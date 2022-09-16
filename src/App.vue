@@ -85,6 +85,9 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
+div {
+  width: inherit;
+}
 #app,
 a {
   font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -661,17 +664,15 @@ main {
   align-content: flex-start;
   height: 100%;
   width: 100%;
-  padding: 20% 0;
+  padding: 6rem 0 0 0;
   z-index: 1;
 }
 .row {
-  display: flex; /* or inline-flex */
-  flex-flow: row wrap;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(min(30%, 100%), 1fr));
   gap: 1rem;
-  align-items: center;
-  align-content: normal;
-  justify-content: space-between;
-  width: 100%;
+  justify-items: center;
   z-index: inherit;
   margin-top: 1.5rem;
 }
