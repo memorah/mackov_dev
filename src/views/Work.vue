@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <LogoPhone />
     <BackButton />
     <WorkItems />
     <WorkBackground />
@@ -8,7 +9,8 @@
 <script>
 import WorkBackground from "../components/WorkBackground.vue";
 import WorkItems from "../components/WorkItems.vue";
-import BackButton from "@/components/BackButton.vue";
+import BackButton from "../components/BackButton.vue";
+
 // @ is an alias to /src
 
 export default {

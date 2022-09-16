@@ -1,5 +1,5 @@
 <template>
-  <div class="row animation-v1">
+  <div class="row">
     <router-link to="/Work/LanguageBakery">
       <div class="icon-div animation-v1">
         <div class="card card1"></div>

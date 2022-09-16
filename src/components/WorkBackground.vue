@@ -1,5 +1,5 @@
 <template>
-  <div class="position-fixed main-bg">
+  <div class="position-absolute main-bg">
     <span class="" data-text="ABOUT">WORK</span>
   </div>
 </template>
