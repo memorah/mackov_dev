@@ -10,6 +10,7 @@
           <h2 class="blog m-0">Subdomen'ss and problem's with them</h2>
         </div>
       </li>
+
       <li>
         <a
           href="https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/"
@@ -163,8 +164,9 @@ h2.blog {
   justify-content: flex-start;
 }
 .galery-card {
-  width: 5rem;
-  margin: 0.5rem 2rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem 1rem;
   aspect-ratio: 1;
 
   backdrop-filter: blur(6px);
