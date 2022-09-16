@@ -212,6 +212,9 @@ a {
 h1,
 h2 {
   font-size: 0.9rem;
+}
+h2 {
+  font-size: 0.9rem;
   margin: 0;
   font-weight: 400;
   margin-top: 10px;
@@ -491,7 +494,7 @@ main {
   backdrop-filter: blur(3px);
   background-size: cover;
   background-position: center;
-  display: flex; /*change to flex 
+  display: none; /*change to flex 
   !important
   !important
   !important
@@ -664,6 +667,7 @@ main {
 .row {
   display: flex; /* or inline-flex */
   flex-flow: row wrap;
+  gap: 1rem;
   align-items: center;
   align-content: normal;
   justify-content: space-between;
@@ -689,6 +693,8 @@ main {
 .card {
   width: 8vh;
   height: 8vh;
+  min-width: 50px;
+  min-height: 50px;
   display: flex;
   align-items: center;
 
@@ -719,6 +725,8 @@ main {
   position: absolute;
   width: inherit;
   height: inherit;
+  min-width: 50px;
+  min-height: 50px;
   mix-blend-mode: hard-light;
   background-image: inherit;
   background-size: 100%;

@@ -6,13 +6,13 @@
       <li>
         <h1>Project | Car Dealer wireframe</h1>
         <p>
-          <span class="text">Mobile first wireframe, home page UI&UX | </span
+          <span class="text">Mobile first wireframe, home page UI&UX |</span
           ><span class="important-text">
             <a
               class="text-link"
               href="/assets/downloads/car_dealer_wireframe.xd"
               download
-              >Download</a
+              >&nbsp;Download</a
             >
           </span>
         </p>
@@ -40,13 +40,13 @@
       <li>
         <h1>Project | Company Group wireframe</h1>
         <p>
-          <span class="text">Desktop first wireframe, home page UI&UX | </span
+          <span class="text">Desktop first wireframe, home page UI&UX |</span
           ><span class="important-text">
             <a
               class="text-link"
               href="/assets/downloads/Company_group_WF.xd"
               download
-              >Download</a
+              >&nbsp;Download</a
             >
           </span>
         </p>

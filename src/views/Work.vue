@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-    <LogoPhone />
-    <BackButton />
     <WorkItems />
     <WorkBackground />
+    <BackButton />
   </div>
 </template>
 <script>
