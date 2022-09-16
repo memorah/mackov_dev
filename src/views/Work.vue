@@ -1,12 +1,10 @@
 <template>
-  <div class="container">
+  <div class="">
     <WorkItems />
-    <WorkBackground />
     <BackButton />
   </div>
 </template>
 <script>
-import WorkBackground from "../components/WorkBackground.vue";
 import WorkItems from "../components/WorkItems.vue";
 import BackButton from "../components/BackButton.vue";
 
@@ -15,9 +13,7 @@ import BackButton from "../components/BackButton.vue";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "/Work",
-
   components: {
-    WorkBackground,
     WorkItems,
     BackButton,
   },

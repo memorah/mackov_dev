@@ -1,36 +1,43 @@
 <template>
-  <div class="row">
-    <router-link to="/Work/LanguageBakery">
-      <div class="icon-div animation-v1">
-        <div class="card card1"></div>
-        <h2>Language<br />bakery</h2>
-      </div></router-link
-    >
-    <router-link to="/Work/SmilingSnake">
-      <div class="icon-div animation-v1">
-        <div class="card card2"></div>
-        <h2>Smailing<br />Snake</h2>
-      </div></router-link
-    >
+  <div class="container">
+    <div class="row">
+      <router-link to="/Work/LanguageBakery">
+        <div class="icon-div animation-v1">
+          <div class="card card1"></div>
+          <h2>Language<br />bakery</h2>
+        </div></router-link
+      >
+      <router-link to="/Work/SmilingSnake">
+        <div class="icon-div animation-v1">
+          <div class="card card2"></div>
+          <h2>Smailing<br />Snake</h2>
+        </div></router-link
+      >
 
-    <router-link to="/Work/GAABarberShop">
-      <div class="icon-div animation-v1">
-        <div class="card card3"></div>
-        <h2>GAA<br />Barbershop</h2>
-      </div></router-link
-    >
-    <router-link to="/Work/WireFrames">
-      <div class="icon-div animation-v1">
-        <div class="card card4"></div>
-        <h2>Wire<br />frames</h2>
-      </div></router-link
-    >
+      <router-link to="/Work/GAABarberShop">
+        <div class="icon-div animation-v1">
+          <div class="card card3"></div>
+          <h2>GAA<br />Barbershop</h2>
+        </div></router-link
+      >
+      <router-link to="/Work/WireFrames">
+        <div class="icon-div animation-v1">
+          <div class="card card4"></div>
+          <h2>Wire<br />frames</h2>
+        </div></router-link
+      >
+      <WorkBackground />
+    </div>
   </div>
 </template>
 
 <script>
+import WorkBackground from "../components/WorkBackground.vue";
 export default {
   name: "WorkItems",
+  components: {
+    WorkBackground,
+  },
 };
 </script>
 
