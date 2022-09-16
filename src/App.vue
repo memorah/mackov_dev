@@ -497,7 +497,7 @@ main {
   backdrop-filter: blur(3px);
   background-size: cover;
   background-position: center;
-  display: flex; /*change to flex 
+  display: none; /*change to flex 
   !important
   !important
   !important

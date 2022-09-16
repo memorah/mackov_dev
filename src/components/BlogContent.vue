@@ -4,15 +4,11 @@
     <!-- Menu items -->
     <ul class="item-galery animation-v1">
       <li>
-        <a
-          href="https://sharkani.com/2022/05/subdomeny-a-starosti-s-nimi-suvisiace/"
-          target="_blank"
-        >
-          <div class="galery-row">
-            <div class="galery-card blog-card1 blog-card"></div>
-            <h2 class="blog m-0">Subdomen'ss and problem's with them</h2>
-          </div></a
-        >
+        <div class="galery-row">
+          <div class="galery-card blog-card1 blog-card"></div>
+
+          <h2 class="blog m-0">Subdomen'ss and problem's with them</h2>
+        </div>
       </li>
       <li>
         <a
@@ -244,7 +240,7 @@ h2.blog {
   background-repeat: no-repeat;
   border-radius: inherit;
 }
-.blog-card:before {
+.blog-card:hover:before {
   animation: animate 0.9s linear infinite;
 }
 
