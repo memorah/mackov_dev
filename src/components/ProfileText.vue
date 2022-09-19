@@ -84,7 +84,10 @@
               >GitHub</a
             >
             |
-            <a class="text-link" href="www.linkedin.com/in/filip-mackov"
+            <a
+              class="text-link"
+              href="www.linkedin.com/in/filip-mackov"
+              target="_blank"
               >Linkedin</a
             ></span
           >
