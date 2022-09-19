@@ -10,7 +10,11 @@
             >Design and development of a website for a private Language school.
             |</span
           ><span class="important-text"
-            ><a class="text-link" href="https://jazykovanie.sk/">
+            ><a
+              class="text-link"
+              href="https://jazykovanie.sk/"
+              target="_blank"
+            >
               Visit</a
             ></span
           >

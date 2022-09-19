@@ -52,7 +52,7 @@
           <a
             class="grey-link"
             href="https://sharkani.com/o-nas-tim/"
-            target="blank"
+            target="_blank"
             >@sharkani.agency </a
           ><span class="text">| 2021 - now</span>
         </p>
@@ -77,8 +77,16 @@
       <li>
         <p>
           <span class="important-text"
-            ><a class="text-link" href="#">GitHub</a> |
-            <a class="text-link" href="#">Linkedin</a></span
+            ><a
+              class="text-link"
+              href="https://github.com/memorah"
+              target="_blank"
+              >GitHub</a
+            >
+            |
+            <a class="text-link" href="www.linkedin.com/in/filip-mackov"
+              >Linkedin</a
+            ></span
           >
         </p>
       </li>

@@ -35,7 +35,7 @@
           <h2>Likedin</h2>
         </div></a
       >
-      <a href="www.linkedin.com/in/filip-mackov" target="_blank">
+      <a href="https://github.com/memorah" target="_blank">
         <div class="icon-div">
           <div class="card card6"></div>
           <h2>GitHub</h2>
