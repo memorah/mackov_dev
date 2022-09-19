@@ -10,7 +10,11 @@
             >Design and development of a one-page website for a private English
             and Spanish teacher. |</span
           ><span class="important-text"
-            ><a class="text-link" href="https://languagebakery.sk/">
+            ><a
+              class="text-link"
+              href="https://languagebakery.sk/"
+              target="_blank"
+            >
               Visit</a
             ></span
           >
