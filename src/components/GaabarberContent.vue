@@ -10,7 +10,9 @@
             >Design and development of a website for a Barberbershop in
             Bratislava. |</span
           ><span class="important-text"
-            ><a class="text-link" href="https://gaabarber.sk/"> Visit</a></span
+            ><a class="text-link" href="https://gaabarber.sk/" target="_blank">
+              Visit</a
+            ></span
           >
         </p>
       </li>
