@@ -4,11 +4,16 @@
     <!-- Menu items -->
     <ul class="item-galery animation-v1">
       <li>
-        <div class="galery-row">
-          <div class="galery-card blog-card1 blog-card"></div>
+        <a
+          href="https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/"
+          target="_blank"
+        >
+          <div class="galery-row">
+            <div class="galery-card blog-card1 blog-card"></div>
 
-          <h2 class="blog m-0">Subdomen'ss and problem's with them</h2>
-        </div>
+            <h2 class="blog m-0">Subdomen'ss and problem's with them</h2>
+          </div></a
+        >
       </li>
 
       <li>
