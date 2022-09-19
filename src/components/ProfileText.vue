@@ -86,7 +86,7 @@
             |
             <a
               class="text-link"
-              href="www.linkedin.com/in/filip-mackov"
+              href="https://linkedin.com/in/filip-mackov"
               target="_blank"
               >Linkedin</a
             ></span
