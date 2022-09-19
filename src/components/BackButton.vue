@@ -20,7 +20,7 @@ export default {
   transition: 0.3s ease-out;
   background-size: 100%;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
 }
 
 .glytch-cancel:before {
