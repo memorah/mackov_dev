@@ -102,4 +102,7 @@ ol {
 .carousel {
   text-align: left;
 }
+.partner-item ul {
+  padding-inline: 5%;
+}
 </style>
