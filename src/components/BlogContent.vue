@@ -235,8 +235,6 @@ h2.blog {
 .blog-card:before {
   content: "";
   position: absolute;
-  top: 0rem;
-  left: 0rem;
   width: inherit;
   height: inherit;
   mix-blend-mode: hard-light;
