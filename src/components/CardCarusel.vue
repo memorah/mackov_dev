@@ -16,7 +16,7 @@
                   <p>
                     <span class="text">{{ slide.projectDescription }} |</span
                     ><span class="important-text">
-                      <a class="text-link" :href="slide.download"
+                      <a class="text-link" download :href="slide.download"
                         >&nbsp;Download</a
                       >
                     </span>
@@ -70,7 +70,7 @@ export default defineComponent({
         projectDescription: "Desctop first wireframe, home page UI&UX",
         projectText:
           "Complete home page wireframe, hero section with video background, simple about & partners section, team slider, offer gallery section, events slider, time zones , footer with contact form.",
-        download: "/assets/downloads/Company_group_WF.xd",
+        download: "http://downloads.mackov.dev/company_group_wf.zip",
       },
       {
         projectName: "Car Dealer wireframe",
@@ -80,7 +80,7 @@ export default defineComponent({
         projectDescription: "Mobile first wireframe, home page UI&UX",
         projectText:
           "Complete car dealer web site wireframe, with product cards, main services sections, subscription form and footer",
-        download: "/assets/downloads/car_dealer_wireframe.xd",
+        download: "http://downloads.mackov.dev/car_dealer_wf.zip",
       },
     ],
   }),
