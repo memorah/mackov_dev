@@ -35,6 +35,9 @@
               </ul>
             </div>
           </slide>
+          <template #addons>
+            <Pagination />
+          </template>
         </carousel>
       </div>
     </div>
@@ -42,7 +45,7 @@
 </template>
 <script>
 import { defineComponent } from "vue";
-import { Carousel, Slide } from "vue3-carousel";
+import { Carousel, Slide, Pagination } from "vue3-carousel";
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -50,6 +53,7 @@ export default defineComponent({
   name: "CardCarusel",
   components: {
     Carousel,
+    Pagination,
     Slide,
   },
   data: () => ({
@@ -82,3 +86,17 @@ export default defineComponent({
   }),
 });
 </script>
+<style>
+.carousel__pagination-button {
+  background-color: #fefefe;
+  opacity: 0.7;
+}
+
+.carousel__pagination-button--active {
+  background-color: #fefefe;
+  opacity: 1;
+}
+ol {
+  padding-inline-start: 0;
+}
+</style>
