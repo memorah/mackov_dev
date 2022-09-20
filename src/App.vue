@@ -71,7 +71,7 @@ body ::-webkit-scrollbar {
   display: none;
 }
 
-html {
+body {
   background-color: #0f0f0f;
   background-repeat: no-repeat;
   min-height: 100%;
@@ -80,8 +80,6 @@ html {
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
-}
-body {
   overflow-x: hidden;
   margin: 0;
 }
