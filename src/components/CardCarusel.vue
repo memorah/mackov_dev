@@ -2,7 +2,7 @@
   <div class="partner-area">
     <div class="container">
       <div class="partner-slides">
-        <carousel :autoplay="4000" :settings="settings" :wrapAround="true">
+        <carousel :autoplay="6000" :settings="settings" :wrapAround="true">
           <slide v-for="slide in carouselItems" :key="slide.id">
             <div class="partner-item">
               <ul class="animation-v1">
@@ -19,10 +19,7 @@
                 </li>
                 <li>
                   <h2>Design</h2>
-                  <p class="text">
-                    Complete car dealer web site wireframe, with product cards,
-                    main services sections, subscription form and footer
-                  </p>
+                  <p class="text">{{ slide.projectText }}</p>
                 </li>
                 <li>
                   <h2>Main tools</h2>
@@ -62,19 +59,23 @@ export default defineComponent({
     },
     carouselItems: [
       {
+        projectName: "Company Group wireframe",
         id: 1,
         image: require("../assets/WF-group-of-companies.png"),
         toolsMessage: "AdobeXD | Adobe Ilustrator",
-        projectName: "Company Group wireframe",
         projectDescription: "Desctop first wireframe, home page UI&UX",
+        projectText:
+          "Complete home page wireframe, hero section with video background, simple about & partners section, team slider, offer gallery section, events slider, time zones , footer with contact form.",
         download: "/assets/downloads/Company_group_WF.xd",
       },
       {
+        projectName: "Car Dealer wireframe",
         id: 2,
         image: require("../assets/WF-cardealer.png"),
         toolsMessage: "AdobeXD | Adobe Ilustrator",
-        projectName: "Car Dealer wireframe",
         projectDescription: "Mobile first wireframe, home page UI&UX",
+        projectText:
+          "Complete car dealer web site wireframe, with product cards, main services sections, subscription form and footer",
         download: "/assets/downloads/car_dealer_wireframe.xd",
       },
     ],

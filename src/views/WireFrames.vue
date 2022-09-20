@@ -1,7 +1,6 @@
 <template>
   <div class="">
     <BackButton />
-    <WireframesContent />
     <WorkBackground />
     <CardCarusel />
   </div>
@@ -9,14 +8,12 @@
 
 <script>
 import WorkBackground from "@/components/WorkBackground.vue";
-import WireframesContent from "@/components/WireframesContent.vue";
 import BackButton from "@/components/BackButton.vue";
 import CardCarusel from "@/components/CardCarusel.vue";
 export default {
   name: "WireFrames",
   components: {
     WorkBackground,
-    WireframesContent,
     BackButton,
     CardCarusel,
   },
