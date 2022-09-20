@@ -7,7 +7,12 @@
             <div class="partner-item">
               <ul class="animation-v1">
                 <li>
+                  <img :src="slide.image" alt="wf-image" />
+                </li>
+                <li>
                   <h1>Project | {{ slide.projectName }}</h1>
+                </li>
+                <li>
                   <p>
                     <span class="text">{{ slide.projectDescription }} |</span
                     ><span class="important-text">
@@ -26,11 +31,6 @@
                   <p>
                     <span class="text">{{ slide.toolsMessage }}</span>
                   </p>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <img :src="slide.image" alt="wf-image" />
                 </li>
               </ul>
             </div>
@@ -98,5 +98,8 @@ export default defineComponent({
 }
 ol {
   padding-inline-start: 0;
+}
+.carousel {
+  text-align: left;
 }
 </style>
