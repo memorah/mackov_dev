@@ -13,7 +13,6 @@
           <h2>Smailing<br />Snake</h2>
         </div></router-link
       >
-
       <router-link to="/Work/GAABarberShop">
         <div class="icon-div animation-v1">
           <div class="card card3"></div>
