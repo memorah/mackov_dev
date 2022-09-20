@@ -7,15 +7,15 @@
         <h1>Project | Smiling Snake</h1>
         <p>
           <span class="text"
-            >Design and development of a website for a private Language school.
-            |</span
+            >Design and development of a website for a local private Language
+            school.&nbsp;|</span
           ><span class="important-text"
             ><a
               class="text-link"
               href="https://jazykovanie.sk/"
               target="_blank"
             >
-              Visit</a
+              &nbsp;Visit</a
             ></span
           >
         </p>
@@ -45,8 +45,6 @@
         <h2>Cost</h2>
         <p class="text">100 hours | Price per hour</p>
       </li>
-    </ul>
-    <ul>
       <li>
         <img src="../assets/Jazykovanie_transp.png" alt="jazykovanie.sk" />
       </li>

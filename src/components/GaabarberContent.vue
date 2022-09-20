@@ -37,8 +37,6 @@
         <h2>Cost</h2>
         <p class="text">60 hours | Pro Bono</p>
       </li>
-    </ul>
-    <ul>
       <li>
         <img src="../assets/GAAproject.png" alt="gaabarber.sk" />
       </li>
