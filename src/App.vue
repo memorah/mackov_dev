@@ -456,7 +456,6 @@ main {
   width: 100%;
   min-height: 100%;
   border-radius: 4.5vmin;
-  background-image: linear-gradient(115deg, #252525 0%, #0f0f0f 74%);
   z-index: 1;
   transition: all 1.6s;
 }

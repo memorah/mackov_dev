@@ -106,7 +106,7 @@ export default {
 
 .slide.z:after {
   content: "";
-  background-image: url("../assets/Cube/training.svg");
+  background-image: url("../assets/Cube/training.jpg");
   -webkit-transform: translateZ(100px);
   transform: translateZ(100px);
 }

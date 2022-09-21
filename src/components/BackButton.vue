@@ -16,7 +16,7 @@ export default {
   background-size: 100%;
   width: 1.5rem;
   height: 1.5rem;
-  background: url("../assets/MainMenu/cancel.svg");
+  background: url("../assets/cancel.svg");
   transition: 0.3s ease-out;
   background-size: 100%;
   cursor: pointer;
@@ -31,7 +31,7 @@ export default {
   width: 1.5rem;
   height: 1.5rem;
   mix-blend-mode: hard-light;
-  background: url("../assets/MainMenu/cancel.svg");
+  background: url("../assets/cancel.svg");
   background-size: 100%;
   opacity: 1;
   transition: 0.3s ease-out;
