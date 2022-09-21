@@ -1,21 +1,22 @@
 <template>
-  <div class="about">
-    <BackButton />
-    <ProfileContent />
+  <div class="">
+    <MenuItems />
   </div>
 </template>
 <script>
-import ProfileContent from "../components/ProfileContent.vue";
-import BackButton from "@/components/BackButton.vue";
+import MenuItems from "../components/MenuItems.vue";
 // @ is an alias to /src
 
 export default {
   components: {
-    ProfileContent,
-    BackButton,
+    MenuItems,
   },
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "/HomePage",
+  name: "/",
 };
 </script>
-<style scoped></style>
+<style scoped>
+.glytch-cancel {
+  display: none;
+}
+</style>

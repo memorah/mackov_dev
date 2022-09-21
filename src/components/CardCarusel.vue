@@ -86,7 +86,7 @@ export default defineComponent({
   }),
 });
 </script>
-<style>
+<style scoped>
 .carousel__pagination-button {
   background-color: #fefefe;
   opacity: 0.7;
