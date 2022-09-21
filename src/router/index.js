@@ -1,11 +1,33 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/IntroPage.vue";
+import VueRouterMetaTags from "@bachdgvn/vue-router-meta-tags";
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
+    meta: {
+      title: `MyApp - About us`,
+      metaTags: [
+        {
+          name: "description",
+          content: `MyApp - The about page of our example app.`,
+        },
+        {
+          property: "og:description",
+          content: `MyApp - The about page of our example app.`,
+        },
+        {
+          name: "theme-color",
+          content: "#000000",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Menu",
@@ -67,5 +89,5 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
 });
-
+router.beforeEach(VueRouterMetaTags.update);
 export default router;
