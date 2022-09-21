@@ -19,16 +19,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .slider {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  position: relative;
   width: 200px;
   max-width: 50vh;
-
   height: 200px;
   margin: auto;
+  margin-top: 60px;
   -webkit-perspective: 600px;
   perspective: 600px;
 }

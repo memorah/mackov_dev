@@ -8,19 +8,19 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      title: `MyApp - About us`,
+      title: `mackov.dev`,
       metaTags: [
         {
           name: "description",
-          content: `MyApp - The about page of our example app.`,
+          content: `mackov.dev`,
         },
         {
           property: "og:description",
-          content: `MyApp - The about page of our example app.`,
+          content: `mackov.dev`,
         },
         {
           name: "theme-color",
-          content: "#000000",
+          content: "#242424",
         },
         {
           name: "viewport",
@@ -37,6 +37,27 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/MenuPage.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Profile",
@@ -46,42 +67,189 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Profile.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Work",
     name: "Work",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Work.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Work/LanguageBakery",
     name: "LangugaeBakery",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/LanguageBakery.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Work/SmilingSnake",
     name: "SmilingSnake",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/SmilingSnake.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Work/GAABarberShop",
     name: "GAABarberShop",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/GaabarberShop.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Work/WireFrames",
     name: "WireFrames",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/WireFrames.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
   {
     path: "/Blog",
     name: "Blog",
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/BlogPage.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#242424",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
 ];
 
