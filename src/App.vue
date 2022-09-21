@@ -23,22 +23,8 @@
               </div>
 
               <div class="screen-1">
-                <LogoPhone />
                 <router-view />
-                <LockButton />
               </div>
-
-              <!-- <div class="screen-2">
-                <section>
-                  <i class="gg-lock-unlock"></i>
-                  <ScreensaverTime />
-                  <ScreensaverCube />
-                </section>
-                <div class="s-2-bottom">
-                  <span class="unlock-text">Swipe up to open</span>
-                  <div class="navigation-bar"></div>
-                </div>
-              </div>-->
             </div>
           </div>
         </div>
@@ -48,15 +34,8 @@
   </div>
 </template>
 <script>
-import LogoPhone from "./components/LogoPhone.vue";
-import LockButton from "./components/LockButton.vue";
-
 export default {
   name: "PhoneMenu",
-  components: {
-    LogoPhone,
-    LockButton,
-  },
 };
 </script>
 
@@ -473,6 +452,14 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+.screen-intro {
+  width: 100%;
+  min-height: 100%;
+  border-radius: 4.5vmin;
+  background-image: linear-gradient(115deg, #252525 0%, #0f0f0f 74%);
+  z-index: 1;
+  transition: all 1.6s;
+}
 .screen-1 .navigation-bar {
   width: 35%;
   height: 4px;
@@ -480,66 +467,27 @@ main {
   border-radius: 20px;
   margin-bottom: 2%;
 }
-.screen-2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 4vmin;
-
-  background-color: transparent;
-  background-image: linear-gradient(
-    147deg,
-    rgb(0 0 0 / 90%) 0%,
-    rgb(67 67 67 / 90%) 74%
-  );
-  backdrop-filter: blur(3px);
-  background-size: cover;
-  background-position: center;
-  display: flex; /*change to flex 
-  !important
-  !important
-  !important
-  !important
-
-  */
+.start-btn {
   position: absolute;
-  z-index: 1;
-  top: 0;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-between;
-  transition: all 1.6s;
-}
-.screen-2 section {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 80%;
-}
-.screen-2 .gg-lock-unlock {
-  color: 2;
-  margin-top: 13%;
-  color: #fefeff;
-  --ggs: 1.2;
-}
-
-.screen-2 .s-2-bottom {
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-flow: column;
   align-items: center;
   width: 100%;
 }
-.screen-2 .navigation-bar {
+.start-btn .navigation-bar {
   width: 35%;
   min-width: 120px;
   height: 4px;
-  background-color: #fefeff;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
 }
-.screen-2 .unlock-text {
+.start-btn .unlock-text {
   font-size: 0.65rem;
   color: rgba(255, 255, 255, 0.4);
-  margin-bottom: 0.6rem;
+  margin-bottom: 2px;
 }
 
 .phone-back {
@@ -630,6 +578,7 @@ main {
   border-bottom: transparent;
   margin-top: -18px;
   margin-left: -2px;
+  margin-bottom: 20px;
 }
 .gg-lock-unlock::after,
 .gg-lock-unlock::before {

@@ -3,6 +3,8 @@
     <BackButton />
     <BlogContent />
     <BlogBackground />
+    <LockButton />
+    <LogoPhone />
   </div>
 </template>
 
@@ -10,12 +12,16 @@
 import BlogBackground from "@/components/BlogBackground.vue";
 import BlogContent from "@/components/BlogContent.vue";
 import BackButton from "@/components/BackButton.vue";
+import LockButton from "@/components/LockButton.vue";
+import LogoPhone from "@/components/LogoPhone.vue";
 export default {
   name: "BlogPage",
   components: {
     BlogBackground,
     BlogContent,
     BackButton,
+    LockButton,
+    LogoPhone,
   },
 };
 </script>

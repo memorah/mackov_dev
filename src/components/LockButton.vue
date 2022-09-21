@@ -24,7 +24,7 @@ i.gg-lock-lock:hover {
   position: absolute;
   bottom: 5%;
   left: 5%;
-  margin-left: 4px;
+  z-index: 1;
 }
 .gg-lock-lock {
   box-sizing: border-box;
@@ -36,8 +36,7 @@ i.gg-lock-lock:hover {
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
   border-bottom: transparent;
-  margin-top: -18px;
-  margin-left: -2px;
+  margin: 12px 4px;
 }
 .gg-lock-lock::after {
   content: "";

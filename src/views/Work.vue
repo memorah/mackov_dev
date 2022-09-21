@@ -2,11 +2,15 @@
   <div class="">
     <WorkItems />
     <BackButton />
+    <LockButton />
+    <LogoPhone />
   </div>
 </template>
 <script>
-import WorkItems from "../components/WorkItems.vue";
-import BackButton from "../components/BackButton.vue";
+import WorkItems from "@/components/WorkItems.vue";
+import BackButton from "@/components/BackButton.vue";
+import LockButton from "@/components/LockButton.vue";
+import LogoPhone from "@/components/LogoPhone.vue";
 
 // @ is an alias to /src
 
@@ -16,6 +20,8 @@ export default {
   components: {
     WorkItems,
     BackButton,
+    LockButton,
+    LogoPhone,
   },
 };
 </script>

@@ -3,6 +3,8 @@
     <BackButton />
     <WorkBackground />
     <CardCarusel />
+    <LockButton />
+    <LogoPhone />
   </div>
 </template>
 
@@ -10,12 +12,16 @@
 import WorkBackground from "@/components/WorkBackground.vue";
 import BackButton from "@/components/BackButton.vue";
 import CardCarusel from "@/components/CardCarusel.vue";
+import LockButton from "@/components/LockButton.vue";
+import LogoPhone from "@/components/LogoPhone.vue";
 export default {
   name: "WireFrames",
   components: {
     WorkBackground,
     BackButton,
     CardCarusel,
+    LockButton,
+    LogoPhone,
   },
 };
 </script>

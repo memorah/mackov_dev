@@ -29,7 +29,7 @@
           <h2>Contact</h2>
         </div></a
       >
-      <a href="www.linkedin.com/in/filip-mackov" target="_blank">
+      <a href="https://linkedin.com/in/filip-mackov" target="_blank">
         <div class="icon-div">
           <div class="card card5"></div>
           <h2>Likedin</h2>

@@ -1,5 +1,6 @@
 <template>
   <div class="clock">
+    <i class="gg-lock-unlock"></i>
     <h1>{{ currentDateTime() }}</h1>
     <span>{{ currentDatum() }}</span>
   </div>
@@ -82,5 +83,11 @@ export default {
 }
 .clock span {
   font-size: 1.15rem;
+}
+i.gg-lock-unlock {
+  color: 2;
+  margin-top: 20%;
+  color: #fefeff;
+  --ggs: 1.2;
 }
 </style>
