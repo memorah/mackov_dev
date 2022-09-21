@@ -12,7 +12,7 @@ export default {
     MenuItems,
   },
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "/",
+  name: "/Menu",
 };
 </script>
 <style scoped>

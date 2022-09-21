@@ -1,5 +1,5 @@
 <template>
-  <router-link class="glytch-logo" to="/"></router-link>
+  <router-link class="glytch-logo" to="/Menu"></router-link>
 </template>
 
 <script>

@@ -27,7 +27,7 @@
                 <router-view />
               </div>
 
-              <div class="screen-2">
+              <!-- <div class="screen-2">
                 <section>
                   <i class="gg-lock-unlock"></i>
                   <ScreensaverTime />
@@ -37,7 +37,7 @@
                   <span class="unlock-text">Swipe up to open</span>
                   <div class="navigation-bar"></div>
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
@@ -47,15 +47,11 @@
   </div>
 </template>
 <script>
-import ScreensaverTime from "./components/ScreensaverTime.vue";
-import ScreensaverCube from "./components/ScreensaverCube.vue";
 import LogoPhone from "./components/LogoPhone.vue";
 
 export default {
   name: "PhoneMenu",
   components: {
-    ScreensaverTime,
-    ScreensaverCube,
     LogoPhone,
   },
 };
@@ -414,7 +410,7 @@ main {
   overflow-y: scroll;
 }
 .phone-front:hover .border .screen .screen-2 {
-  top: -2000px;
+  /*top: -2000px;*/
   transition: all 1.6s;
 }
 .phone-front .border .screen .notch {
@@ -531,10 +527,11 @@ main {
 }
 .screen-2 .navigation-bar {
   width: 35%;
+  min-width: 120px;
   height: 4px;
   background-color: #fefeff;
   border-radius: 20px;
-  margin-bottom: 2%;
+  margin-bottom: 1rem;
 }
 .screen-2 .unlock-text {
   font-size: 0.65rem;

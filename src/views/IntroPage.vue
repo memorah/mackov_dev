@@ -1,16 +1,19 @@
 <template>
   <div class="about">
-    <div class="screen-2">
-      <section>
-        <i class="gg-lock-unlock"></i>
-        <ScreensaverTime />
-        <ScreensaverCube />
-      </section>
-      <div class="s-2-bottom">
-        <span class="unlock-text">Swipe up to open</span>
-        <div class="navigation-bar"></div>
+    <router-link to="/Menu">
+      <div class="screen-2">
+        <section>
+          <i class="gg-lock-unlock"></i>
+          <ScreensaverTime />
+          <ScreensaverCube />
+        </section>
+
+        <div class="s-2-bottom">
+          <span class="unlock-text">Get started. </span>
+          <div class="navigation-bar"></div>
+        </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 <script>
@@ -24,7 +27,7 @@ export default {
     ScreensaverCube,
   },
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "/HomePage",
+  name: "/",
 };
 </script>
 <style scoped></style>
