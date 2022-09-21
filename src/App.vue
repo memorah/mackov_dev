@@ -25,6 +25,7 @@
               <div class="screen-1">
                 <LogoPhone />
                 <router-view />
+                <LockButton />
               </div>
 
               <!-- <div class="screen-2">
@@ -48,11 +49,13 @@
 </template>
 <script>
 import LogoPhone from "./components/LogoPhone.vue";
+import LockButton from "./components/LockButton.vue";
 
 export default {
   name: "PhoneMenu",
   components: {
     LogoPhone,
+    LockButton,
   },
 };
 </script>
