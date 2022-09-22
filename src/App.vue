@@ -54,9 +54,9 @@ body {
   background-repeat: no-repeat;
   min-height: 100%;
   background: radial-gradient(
-    circle at 24.1% 68.8%,
+    circle at 50% 50%,
     rgb(50, 50, 50) 0%,
-    rgb(0, 0, 0) 99.4%
+    rgb(0, 0, 0) 90% 99.4%
   );
   overflow-x: hidden;
   margin: 0;
@@ -445,7 +445,11 @@ main {
   width: 100%;
   min-height: 100%;
   border-radius: 4.5vmin;
-  background-image: linear-gradient(115deg, #252525 0%, #0f0f0f 74%);
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 90% 99.4%
+  );
   z-index: 0;
   display: flex;
   flex-flow: column;
