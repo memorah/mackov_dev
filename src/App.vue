@@ -101,6 +101,7 @@ li {
   list-style: none;
 }
 ul {
+  -webkit-padding-start: 0;
   padding-inline-start: 0;
   z-index: inherit;
 }
@@ -200,15 +201,19 @@ h2 {
 }
 p {
   font-size: 0.9rem;
+  -webkit-margin-before: 0rem;
   margin-block-start: 0rem;
+  -webkit-margin-after: 0em;
   margin-block-end: 0em;
 }
 li p {
+  -webkit-margin-after: 1rem;
   margin-block-end: 1rem;
 }
 h1,
 h2,
 ul {
+  -webkit-margin-before: 0;
   margin-block-start: 0;
 }
 h1,
@@ -504,6 +509,8 @@ main {
   border-radius: 65px;
 }
 .info {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   min-width: 300px;
   border-radius: 10px;
@@ -524,6 +531,7 @@ main {
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.626);
+  -webkit-filter: blur(10px);
   filter: blur(10px);
   z-index: -1;
 }
@@ -627,6 +635,14 @@ main {
   margin-top: 1.5rem;
 }
 /* The animation code */
+@-webkit-keyframes animation-v1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @keyframes animation-v1 {
   from {
     opacity: 0;
@@ -637,7 +653,10 @@ main {
 }
 
 .animation-v1 {
+  -webkit-animation: animation-v1 1s;
   animation: animation-v1 1s;
+
+  -webkit-animation-timing-function: ease-in-out;
 
   animation-timing-function: ease-in-out;
 }
@@ -666,9 +685,6 @@ main {
   text-shadow: 0px 7px 10px #100e0e;
   font-size: 1.5rem;
   font-weight: bold;
-  -webkit-transition: opacity 2s ease-out;
-  -moz-transition: opacity 2s ease-out;
-  -o-transition: opacity 2s ease-out;
   transition: opacity 2s ease-out;
 }
 .card:before {
@@ -687,13 +703,15 @@ main {
   border-radius: inherit;
 }
 .card:hover:before {
+  -webkit-animation: animate 0.9s linear infinite;
   animation: animate 0.9s linear infinite;
 }
 
-@keyframes animate {
+@-webkit-keyframes animate {
   0% {
     background-color: transparent;
     background-position: 0 0;
+    -webkit-filter: hue-rotate(0deg);
     filter: hue-rotate(0deg);
     filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
     -webkit-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
@@ -770,6 +788,96 @@ main {
   100% {
     background-color: transparent;
     background-position: 0 0;
+    -webkit-filter: hue-rotate(380deg);
+    filter: hue-rotate(380deg);
+    filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
+    -webkit-filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
+    -moz-filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-color: transparent;
+    background-position: 0 0;
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+    filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+  }
+  10% {
+    background-color: transparent;
+    background-position: 5px 0;
+    filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+  }
+  20% {
+    background-color: transparent;
+    background-position: -5px 0;
+    filter: drop-shadow(1px 1px 2px rgb(60, 207, 109));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(60, 207, 109));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(60, 207, 109));
+  }
+  30% {
+    background-color: transparent;
+    background-position: 3px 0;
+    filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+  }
+  40% {
+    background-color: transparent;
+    background-position: 0 5px;
+    filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+  }
+  50% {
+    background-position: 0 -3px;
+    filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    background-color: transparent;
+  }
+  55% {
+    background-position: 0 -3px;
+    background-color: darkgray;
+  }
+
+  60% {
+    background-color: transparent;
+    background-position: 0 2px;
+    filter: drop-shadow(1px 1px 2px rgb(60, 207, 109));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(60, 207, 109));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(60, 207, 109));
+  }
+  70% {
+    background-color: transparent;
+    background-position: 0 -1px;
+    filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(0, 195, 255));
+  }
+  80% {
+    background-color: transparent;
+    background-position: -2px 0;
+    filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -webkit-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+    -moz-filter: drop-shadow(1px 1px 2px rgb(255, 0, 0));
+  }
+  81% {
+    background-color: transparent;
+    background-position: 2px 0;
+    filter: drop-shadow(3px 5px 1px rgb(238, 255, 0));
+    -webkit-filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
+    -moz-filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
+  }
+  100% {
+    background-color: transparent;
+    background-position: 0 0;
+    -webkit-filter: hue-rotate(380deg);
     filter: hue-rotate(380deg);
     filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
     -webkit-filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));

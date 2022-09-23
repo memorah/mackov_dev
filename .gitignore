@@ -23,3 +23,4 @@ pnpm-debug.log*
 *.sw?
 src/assets/logo.xd
 src/assets/logo.xd
+src/components/prefix.css
