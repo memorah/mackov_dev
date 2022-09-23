@@ -8,7 +8,7 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      title: `Frontend Developer | WordPress Developer | UI&UX | SEO`,
+      title: `FM | Frontend Developer | WordPress Developer | UI&UX | SEO`,
       metaTags: [
         {
           name: "description",
