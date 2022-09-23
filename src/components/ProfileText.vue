@@ -70,8 +70,8 @@
           <span class="important-text">Also busy: </span
           ><span class="text"
             >Improving skill’s | bloging | making fairytales | catan universe |
-            rubic cube | t-shirts&nbsp;slogans</span
-          >
+            rubic cube | t-shirts&nbsp;slogans
+          </span>
         </p>
       </li>
       <li>
