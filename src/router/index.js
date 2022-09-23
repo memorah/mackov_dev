@@ -20,7 +20,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -50,7 +50,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -80,7 +80,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -107,7 +107,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -134,7 +134,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -161,7 +161,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -188,7 +188,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -215,7 +215,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
@@ -242,7 +242,7 @@ const routes = [
         },
         {
           name: "theme-color",
-          content: "#242424",
+          content: "#000000",
         },
         {
           name: "viewport",
