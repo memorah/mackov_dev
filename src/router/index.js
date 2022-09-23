@@ -8,15 +8,16 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      title: `mackov.dev`,
+      title: `Frontend Developer | WordPress Developer | UI&UX | SEO`,
       metaTags: [
         {
           name: "description",
-          content: `mackov.dev`,
+          content:
+            "Meet Frontend & WordPress Developer. Building websites and interactive experiences, web solutions, website maintenance & security, seo optimalisation",
         },
         {
           property: "og:description",
-          content: `mackov.dev`,
+          content: "mackov.dev",
         },
         {
           name: "theme-color",
@@ -25,6 +26,47 @@ const routes = [
         {
           name: "viewport",
           content: "width=device-width, initial-scale=1.0",
+        },
+        {
+          name: "robots",
+          content: "index, follow",
+        },
+        {
+          name: "og:site_name",
+          content: "mackov.dev",
+        },
+        {
+          name: "og:title",
+          content: "mackov.dev",
+        },
+        {
+          name: "og:type",
+          content: "article",
+        },
+        {
+          name: "og:image",
+          content: "http://downloads/mackov.dev/ok-img.jpg",
+        },
+        {
+          name: "og:url",
+          content: "http:mackov.dev",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "og:description",
+          content:
+            "Meet Frontend & WordPress Developer. Building websites and interactive experiences, web solutions, website maintenance & security, seo optimalisation",
+        },
+        {
+          name: "og:site_name",
+          content: "mackov.dev",
+        },
+        {
+          name: "twitter:image:alt",
+          content: "mackov.dev",
         },
       ],
     },
