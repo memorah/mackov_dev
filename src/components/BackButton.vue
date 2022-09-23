@@ -37,6 +37,7 @@ export default {
   transition: 0.3s ease-out;
 }
 .glytch-cancel:hover:before {
+  -webkit-animation: animate 0.9s linear infinite;
   animation: animate 0.9s linear infinite;
 }
 @keyframes animate {
@@ -135,6 +136,12 @@ export default {
   .gglytch-cancel:hover:before {
     top: 0;
     right: 0;
+  }
+}
+@media (hover: none) {
+  .glytch-cancel:hover:before {
+    -webkit-animation: none;
+    animation: none;
   }
 }
 </style>

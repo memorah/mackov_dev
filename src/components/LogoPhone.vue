@@ -155,5 +155,11 @@ export default {
     height: 35px;
   }
 }
+@media (hover: none) {
+  .glytch-logo:hover:before {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
 /* in App.vue style */
 </style>
