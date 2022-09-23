@@ -1051,4 +1051,14 @@ main {
     margin: 10px 0 0 0;
   }
 }
+@media (hover: none) {
+  a:link,
+  a:visited {
+    color: red;
+  }
+  .card:hover:before {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
 </style>

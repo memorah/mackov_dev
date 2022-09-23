@@ -335,4 +335,10 @@ h2.blog {
     -moz-filter: drop-shadow(3px 3px 1px rgb(238, 255, 0));
   }
 }
+@media (hover: none) {
+  .blog-card:hover:before {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
 </style>
