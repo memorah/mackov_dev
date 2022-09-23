@@ -1052,10 +1052,6 @@ main {
   }
 }
 @media (hover: none) {
-  a:link,
-  a:visited {
-    color: red;
-  }
   .card:hover:before {
     -webkit-animation: none;
     animation: none;
