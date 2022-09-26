@@ -283,6 +283,16 @@ li img {
     margin-top: 2rem;
   }
 }
+/*carusel main styles*/
+.carousel__pagination-button {
+  background-color: #fefefe !important;
+  opacity: 0.7;
+}
+
+.carousel__pagination-button--active {
+  background-color: #fefefe !important;
+  opacity: 1;
+}
 /*phone styles*/
 
 :root {

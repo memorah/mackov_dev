@@ -1,7 +1,8 @@
 <template>
   <div class="">
     <BackButton />
-    <BlogContent />
+    <BlogCarusel />
+
     <BlogBackground />
     <LockButton />
     <LogoPhone />
@@ -10,18 +11,20 @@
 
 <script>
 import BlogBackground from "@/components/BlogBackground.vue";
-import BlogContent from "@/components/BlogContent.vue";
+
 import BackButton from "@/components/BackButton.vue";
 import LockButton from "@/components/LockButton.vue";
 import LogoPhone from "@/components/LogoPhone.vue";
+import BlogCarusel from "@/components/BlogCarusel.vue";
 export default {
   name: "BlogPage",
   components: {
     BlogBackground,
-    BlogContent,
+
     BackButton,
     LockButton,
     LogoPhone,
+    BlogCarusel,
   },
 };
 </script>
