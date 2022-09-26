@@ -7,24 +7,23 @@
         <h1>Hi, I’m Filip,</h1>
 
         <p>
-          an ex-bank mSME relationship manager who has fallen in love with
-          website building and coding. I've always been tempted to create
-          websites, but because of my work I didn't have time for that. In
-          unexpected sabbatical and I decided learn to how to code. I studied
-          studied every day. I learned HTML, CSS and started working on JS and
-          WP skill's. When I returned to the bank, I could no longer be there. I
-          was thinking allday's about what I will do when I turn on Visual
-          Visual Studio Code again.
+          a former mSME bank relationship manager who fell in love with website
+          development and coding. I've always been tempted to create websites,
+          but I didn't have time because of work. During an unexpected
+          sabbatical, I decided to learn to code. I was learning every day. I
+          learned HTML, CSS and started working on my skills in JS and WP. When
+          I got back to the bank, I couldn't be there anymore. I've been
+          thinking all day what I'm going to do when I get back to VS Code.
         </p>
 
         <p>
           Shortly afterwards, I got a chance as a junior at the digital agency
           Sharkani, where I still work as Head of Development. I like the
           diversity of projects the most. In my position, I am responsible for
-          finding suitable solutions for clients. This allows me to spend a
-          learning. I also take care of creating the and in and in in
-          cooperation with the designers the resulting UI&UX, for me to for for
-          for me to develop my skill's in this direction as well.
+          finding suitable solutions for clients. This allows me to spend a part
+          of my working time with learning. I also take care of creating the
+          Wireframe, I cooperate with designers on resulting UI&UX. I develop my
+          skill's in this direction as well.
         </p>
 
         <p>
