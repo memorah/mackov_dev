@@ -27,10 +27,10 @@
         </p>
 
         <p>
-          In the last quarter of 2021, I was an intern at a power play studio,
-          where I tried out tools docker, zeplin and VUE.js. It was a great
-          experience to look inside a big project. In addition to currently
-          mainly interested in VUE.js.
+          In the last quarter of 2021, I was an intern at Power Play Studio,
+          where I tried tools like Docker, Zeplin and the VUE.js framework. It
+          was a great experience to get an insight into a big project. At the
+          moment I am mainly interested in VUE.js.
         </p>
       </li>
 
