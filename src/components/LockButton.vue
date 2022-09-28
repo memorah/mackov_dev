@@ -22,7 +22,7 @@ i.gg-lock-lock:hover {
 }
 .lock-position {
   position: absolute;
-  bottom: 5%;
+  bottom: 1rem;
   left: 5%;
   z-index: 1;
 }
