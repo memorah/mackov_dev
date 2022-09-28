@@ -1060,6 +1060,9 @@ main {
     font-size: 0.9rem;
     margin: 10px 0 0 0;
   }
+  .row {
+    margin-top: 0rem;
+  }
 }
 @media (hover: none) {
   .card:hover:before {
