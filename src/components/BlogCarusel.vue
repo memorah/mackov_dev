@@ -189,7 +189,7 @@ ol {
 .carousel {
   text-align: left;
   z-index: 1;
-  margin-top: 1.5rem;
+  margin-top: 0rem;
 }
 .partner-item ul {
   padding-inline: 5%;

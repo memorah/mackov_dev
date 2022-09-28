@@ -341,5 +341,5 @@ h2.blog {
     animation: none;
   }
 }
-/*test2*/ */
+/*test2*/
 </style>

@@ -270,18 +270,7 @@ a.text:hover {
 li img {
   width: 100%;
 }
-@media only screen and (max-width: 600px) {
-  .text-content ul {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
 
-@media only screen and (max-height: 690px) {
-  .text-content ul {
-    margin-top: 2rem;
-  }
-}
 /*carusel main styles*/
 .carousel__pagination-button {
   background-color: #fefefe !important;
@@ -1048,19 +1037,22 @@ main {
     width: 25px;
     transition: 0.3s ease-out;
   }
-}
-@media screen and (max-width: 900px) {
-  body {
-    margin: 0 !important;
-  }
-}
-@media only screen and (max-width: 600px) {
   .card {
     font-size: 0.9rem;
     margin: 10px 0 0 0;
   }
   .row {
     margin-top: 0rem;
+  }
+  .text-content ul {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    margin: 0 !important;
   }
 }
 @media (hover: none) {
