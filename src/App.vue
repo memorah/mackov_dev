@@ -272,7 +272,6 @@ li img {
 }
 @media only screen and (max-width: 600px) {
   .text-content ul {
-    margin-top: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -984,7 +983,7 @@ main {
   align-items: flex-start;
   justify-content: flex-start;
   overflow-x: hidden;
-  margin-top: 7rem;
+  margin-top: 6rem;
   z-index: 1;
 }
 @media only screen and (max-width: 600px) {
