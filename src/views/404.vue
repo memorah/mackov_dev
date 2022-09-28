@@ -1,8 +1,8 @@
 <template>
-  <div class="">
+  <router-link to="/Menu">
     <Error404Cube />
     <Error404Background />
-  </div>
+  </router-link>
 </template>
 <script>
 // @ is an alias to /src
