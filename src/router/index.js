@@ -293,6 +293,11 @@ const routes = [
       ],
     },
   },
+  // eslint-disable-next-line no-undef
+  {
+    path: "/:pathMatch(.*)",
+    component: () => import(/* webpackChunkName: "about" */ "../views/404.vue"),
+  },
 ];
 
 const router = createRouter({

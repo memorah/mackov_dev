@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <MenuItems />
-    aa
+    sorry page not found
   </div>
 </template>
 <script>

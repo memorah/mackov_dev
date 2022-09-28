@@ -3,12 +3,14 @@
     <MenuItems />
     <LockButton />
     <LogoPhone />
+    <PhoneBackground />
   </div>
 </template>
 <script>
 import MenuItems from "../components/MenuItems.vue";
 import LockButton from "@/components/LockButton.vue";
 import LogoPhone from "@/components/LogoPhone.vue";
+import PhoneBackground from "@/components/PhoneBackground.vue";
 // @ is an alias to /src
 
 export default {
@@ -16,6 +18,7 @@ export default {
     MenuItems,
     LockButton,
     LogoPhone,
+    PhoneBackground,
   },
   // eslint-disable-next-line vue/multi-word-component-names
   name: "/Menu",

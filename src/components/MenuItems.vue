@@ -42,17 +42,12 @@
         </div></a
       >
     </div>
-    <PhoneBackground />
   </div>
 </template>
 
 <script>
-import PhoneBackground from "../components/PhoneBackground.vue";
 export default {
   name: "MenuItems",
-  components: {
-    PhoneBackground,
-  },
 };
 </script>
 

@@ -11,6 +11,7 @@ import ProfileContent from "../components/ProfileContent.vue";
 import BackButton from "@/components/BackButton.vue";
 import LockButton from "@/components/LockButton.vue";
 import LogoPhone from "@/components/LogoPhone.vue";
+
 // @ is an alias to /src
 
 export default {
