@@ -33,11 +33,7 @@
     </main>
   </div>
 </template>
-<script>
-export default {
-  name: "PhoneMenu",
-};
-</script>
+<script></script>
 
 <style>
 /*font*/
