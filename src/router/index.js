@@ -297,6 +297,27 @@ const routes = [
   {
     path: "/:pathMatch(.*)",
     component: () => import(/* webpackChunkName: "about" */ "../views/404.vue"),
+    meta: {
+      title: `404`,
+      metaTags: [
+        {
+          name: "description",
+          content: `404 | mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `Sorry, page not found`,
+        },
+        {
+          name: "theme-color",
+          content: "#000000",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
   },
 ];
 
