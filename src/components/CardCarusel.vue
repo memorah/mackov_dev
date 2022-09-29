@@ -75,7 +75,7 @@ export default defineComponent({
       {
         projectName: "Car Dealer wireframe",
         id: 2,
-        image: require("../assets/WF-cardealer.png"),
+        image: require("../assets/WF_cardealer.png"),
         toolsMessage: "AdobeXD | Adobe Ilustrator",
         projectDescription: "Mobile first wireframe, home page UI&UX",
         projectText:
