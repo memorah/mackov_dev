@@ -118,46 +118,54 @@ export default defineComponent({
       {
         id: 1,
         blogMainclass: "galery-card blog-card",
-        blogName1: "Subdomen's and problem's with them",
-        blogNomber1: "galery-card blog-card blog-card1",
+        blogName1: "Cookie consent & Cookie policy",
+        blogNomber1: "galery-card blog-card blog-card11",
         blogLink1:
-          "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
-        blogName2: "Footer, an underrated part of the site",
-        blogNomber2: "galery-card blog-card blog-card2",
+          "https://sharkani.com/2022/10/suhlas-so-spracovanim-suborov-cookie/",
+        blogName2: "Subdomen's and problem's with them",
+        blogNomber2: "galery-card blog-card blog-card1",
         blogLink2:
           "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
-        blogName3: "QR codes and their use in 2022",
-        blogNomber3: "galery-card blog-card blog-card3",
+        blogName3: "Footer, an underrated part of the site",
+        blogNomber3: "galery-card blog-card blog-card2",
         blogLink3:
-          "https://sharkani.com/2022/03/qr-kody-a-ich-vyuzitie-v-roku-2022/",
-        blogName4: "Trends in domains in 2022",
-        blogNomber4: "galery-card blog-card blog-card4",
+          "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
+        blogName4: "QR codes and their use in 2022",
+        blogNomber4: "galery-card blog-card blog-card3",
         blogLink4:
-          "https://sharkani.com/2022/02/trendy-v-domenach-v-roku-2022/",
-        blogName5: "Why buy a website from SHARKANI",
-        blogNomber5: "galery-card blog-card blog-card5",
+          "https://sharkani.com/2022/03/qr-kody-a-ich-vyuzitie-v-roku-2022/",
+        blogName5: "Trends in domains in 2022",
+        blogNomber5: "galery-card blog-card blog-card4",
         blogLink5:
-          "https://sharkani.com/2021/12/preco-si-kupit-web-od-sharkani-dame-vam-17-dovodov-2/",
-        blogName6: "Correct font size for the web",
-        blogNomber6: "galery-card blog-card blog-card6",
+          "https://sharkani.com/2022/02/trendy-v-domenach-v-roku-2022/",
+        blogName6: "Why buy a website from SHARKANI",
+        blogNomber6: "galery-card blog-card blog-card5",
         blogLink6:
-          "https://sharkani.com/2021/12/aka-je-spravna-velkost-pisma-pre-web/",
-        blogName7: "How to prepare a website for the holidays",
-        blogNomber7: "galery-card blog-card blog-card7",
+          "https://sharkani.com/2021/12/preco-si-kupit-web-od-sharkani-dame-vam-17-dovodov-2/",
+        blogName7: "Correct font size for the web",
+        blogNomber7: "galery-card blog-card blog-card6",
         blogLink7:
-          "https://sharkani.com/2021/10/ako-pripravit-vas-web-na-sviatky/",
+          "https://sharkani.com/2021/12/aka-je-spravna-velkost-pisma-pre-web/",
       },
       {
         id: 1,
         blogMainclass: "galery-card blog-card",
-        blogName1: "What to do with broken links and backlinks",
-        blogNomber1: "galery-card blog-card blog-card8",
+        blogName1: "How to prepare a website for the holidays",
+        blogNomber1: "galery-card blog-card blog-card7",
         blogLink1:
-          "https://sharkani.com/2021/10/ako-vybudujete-uspesny-e-shop-pomoze-vam-tychto-13-tipov/",
-        blogName2: "How to fix The most common mistakes on the web",
-        blogNomber2: "galery-card blog-card blog-card9",
+          "https://sharkani.com/2021/10/ako-pripravit-vas-web-na-sviatky/",
+        blogName2: "13 tips for successful e-shop",
+        blogNomber2: "galery-card blog-card blog-card8",
         blogLink2:
-          "https://sharkani.com/2021/05/toto-su-najcastejsie-chyby-na-webe-ako-ich-opravit/",
+          "https://sharkani.com/2021/10/ako-vybudujete-uspesny-e-shop-pomoze-vam-tychto-13-tipov/",
+        blogName3: "What to do with broken links and backlinks",
+        blogNomber3: "galery-card blog-card blog-card9",
+        blogLink3:
+          "https://sharkani.com/2021/07/co-robit-s-nefunkcnymi-linkami-a-spatnymi-odkazmi/",
+        blogName4: "How to fix The most common mistakes on the web",
+        blogNomber4: "galery-card blog-card blog-card10",
+        blogLink4:
+          "https://sharkani.com/2021/05/toto-su-najcastejsie-chyby-na-webe-ako-ich-opravit//",
       },
     ],
   }),
@@ -295,6 +303,9 @@ h2.blog {
 
 .blog-card10 {
   background-image: url("../assets/404blog.jpg");
+}
+.blog-card11 {
+  background-image: url("../assets/blog_cookie.jpg");
 }
 .blog-card:before {
   content: "";
