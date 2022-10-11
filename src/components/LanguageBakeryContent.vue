@@ -7,8 +7,8 @@
         <h1>Project | Language Bakery</h1>
         <p>
           <span class="text"
-            >Design and development of a one-page website for a private English
-            and Spanish teacher. |</span
+            >Design and development of a one-page website for a language
+            teacher. |</span
           ><span class="important-text"
             ><a
               class="text-link"

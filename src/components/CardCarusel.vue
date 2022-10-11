@@ -67,9 +67,9 @@ export default defineComponent({
         id: 1,
         image: require("../assets/WF-group-of-companies.png"),
         toolsMessage: "AdobeXD | Adobe Ilustrator",
-        projectDescription: "Desctop first wireframe, home page UI&UX",
+        projectDescription: "Desktop first wireframe, home page UI&UX",
         projectText:
-          "Complete home page wireframe, hero section with video background, simple about & partners section, team slider, offer gallery section, events slider, time zones , footer with contact form.",
+          "Complete home page wireframe, hero section with video background, simple about us & partners section, team slider, offer gallery section, events slider, time zones , footer with contact form.",
         download: "http://downloads.mackov.dev/company_group_wf.zip",
       },
       {

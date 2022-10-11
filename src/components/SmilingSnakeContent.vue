@@ -7,7 +7,7 @@
         <h1>Project | Smiling Snake</h1>
         <p>
           <span class="text"
-            >Design and development of a website for a local private Language
+            >Design and development of a website for a local local Language
             school.&nbsp;|</span
           ><span class="important-text"
             ><a
