@@ -25,7 +25,7 @@
           <h2>Wire<br />frames</h2>
         </div></router-link
       >
-      <router-link to="/Work/SmilingSnake">
+      <router-link to="/Work/ToDo">
         <div class="icon-div animation-v1">
           <div class="card card5"></div>
           <h2>Vuetify<br />ToDo App</h2>
