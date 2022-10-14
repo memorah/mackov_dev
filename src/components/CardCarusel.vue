@@ -2,7 +2,7 @@
   <div class="partner-area">
     <div class="container">
       <div class="partner-slides">
-        <carousel :autoplay="6000" :settings="settings" :wrapAround="true">
+        <carousel :autoplay="8000" :settings="settings">
           <slide v-for="slide in carouselItems" :key="slide.id">
             <div class="partner-item">
               <ul class="animation-v1">
@@ -60,6 +60,8 @@ export default defineComponent({
     settings: {
       itemsToShow: 1,
       snapAlign: "center",
+      wrapAround: "true",
+      transition: 600,
     },
     carouselItems: [
       {
