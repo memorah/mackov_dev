@@ -25,6 +25,12 @@
           <h2>Wire<br />frames</h2>
         </div></router-link
       >
+      <router-link to="/Work/SmilingSnake">
+        <div class="icon-div animation-v1">
+          <div class="card card5"></div>
+          <h2>Vuetify<br />ToDo App</h2>
+        </div></router-link
+      >
       <WorkBackground />
     </div>
   </div>
@@ -42,6 +48,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h2 {
+  margin-top: 0.2rem;
+}
 .card1 {
   background-image: url("../assets/languagebakerylogo.png");
   background-position: center;
@@ -62,6 +71,12 @@ export default {
 }
 .card4 {
   background-image: url("../assets/WF-icon.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+.card5 {
+  background-image: url("../assets/todo-icon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
