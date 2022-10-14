@@ -4,7 +4,7 @@
     <ScreensaverCube />
 
     <div class="start-btn s-2-bottom">
-      <span class="unlock-text">Get started</span>
+      <span class="unlock-text">ENTER</span>
       <div class="navigation-bar"></div>
     </div>
   </router-link>

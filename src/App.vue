@@ -482,13 +482,13 @@ main {
   width: 35%;
   min-width: 120px;
   height: 4px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   margin-bottom: 5px;
 }
 .start-btn .unlock-text {
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 1);
   margin-bottom: 2px;
 }
 
