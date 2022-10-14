@@ -7,12 +7,12 @@
         <h1>Project | ToDo App</h1>
         <p>
           <span class="text"
-            >Design and development of a website for a local Language
-            school.&nbsp;|</span
+            >ToDo app Design and development as a learning project to improve my
+            skills in Vue.js & others tools.&nbsp;|</span
           ><span class="important-text"
             ><a
               class="text-link"
-              href="https://jazykovanie.sk/"
+              href="https://todo.mackov.dev/"
               target="_blank"
             >
               &nbsp;Visit</a
@@ -23,30 +23,29 @@
       <li>
         <h2>Functions</h2>
         <p class="text">
-          Course applications | Blog | Forms | Facebook feed integration | CMS
+          Add, delete & edit task | set the due date | sorting added tasks |
+          search in tasks | local database
         </p>
       </li>
       <li>
         <h2>Design</h2>
-        <p class="text">
-          Complete web design, except for the logo | Color palette | Paper cut
-          image style | Typeface combination | UI&UX
-        </p>
+        <p class="text">Just simple design witht UI&UX friendly layout.</p>
       </li>
       <li>
         <h2>Main tools</h2>
         <p>
           <span class="text"
-            >Adobe Illustrator | Wordpress | Javascript | CSS</span
+            >VueCLI | VueRoute | Vuex | Vuetify | Enviroment Variables |
+            Localbase | VueDraggable | Date-fns | Sass</span
           >
         </p>
       </li>
       <li>
         <h2>Cost</h2>
-        <p class="text">100 hours | Price per hour</p>
+        <p class="text">40 hours | the reward is the skill</p>
       </li>
       <li>
-        <img src="../assets/Jazykovanie_transp.png" alt="jazykovanie.sk" />
+        <img src="../assets/TODO.png" alt="todo.mackov.dev" />
       </li>
     </ul>
   </div>
@@ -54,7 +53,7 @@
 
 <script>
 export default {
-  name: "TodoSnakeContent",
+  name: "TodoContent",
 };
 </script>
 
