@@ -3,6 +3,12 @@
     <div class="row">
       <router-link to="/Work/LanguageBakery">
         <div class="icon-div animation-v1">
+          <div class="card card6"></div>
+          <h2>Mr.Drinks<br />Slovakia</h2>
+        </div></router-link
+      >
+      <router-link to="/Work/LanguageBakery">
+        <div class="icon-div animation-v1">
           <div class="card card1"></div>
           <h2>Language<br />bakery</h2>
         </div></router-link
@@ -77,6 +83,12 @@ h2 {
 }
 .card5 {
   background-image: url("../assets/todo-icon.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+.card6 {
+  background-image: url("../assets/mrdrinks-icon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;

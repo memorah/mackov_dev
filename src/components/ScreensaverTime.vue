@@ -57,7 +57,7 @@ export default {
 
       const date = current.getDate() + ". ";
 
-      let dayname = weekday[d.getDay() + 1] + ", ";
+      let dayname = weekday[d.getDay()] + ", ";
       let monthname = month[d.getMonth()];
 
       let datum = dayname + date + monthname;
