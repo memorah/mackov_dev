@@ -259,6 +259,8 @@ a.shrk-btn {
   font-weight: 600;
   font-size: 0.9rem;
   opacity: 1;
+  color: #252525;
+  text-align: center;
 }
 a.shrk-btn:hover {
   filter: drop-shadow(0px 0px 7px rgba(255, 255, 255, 0.9));
