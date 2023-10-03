@@ -37,6 +37,12 @@
           <h2>Vuetify<br />ToDo App</h2>
         </div></router-link
       >
+      <router-link to="/Work/SHARKANI">
+        <div class="icon-div animation-v1">
+          <div class="card card7"></div>
+          <h2>Work for<br />SHARKANI</h2>
+        </div></router-link
+      >
       <WorkBackground />
     </div>
   </div>
@@ -89,6 +95,12 @@ h2 {
 }
 .card6 {
   background-image: url("../assets/mrdrinks-icon.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+.card7 {
+  background-image: url("../assets/shrk-icon.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;

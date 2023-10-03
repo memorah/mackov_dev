@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <BackButton />
-    <MrdrinksContent />
+    <GaabarberContent />
     <WorkBackground />
     <LockButton />
     <LogoPhone />
@@ -10,15 +10,15 @@
 
 <script>
 import WorkBackground from "@/components/WorkBackground.vue";
-import MrdrinksContent from "@/components/MrdrinksContent.vue";
+import GaabarberContent from "@/components/GaabarberContent.vue";
 import BackButton from "@/components/BackButton.vue";
 import LockButton from "@/components/LockButton.vue";
 import LogoPhone from "@/components/LogoPhone.vue";
 export default {
-  name: "MrDrinks",
+  name: "SHARKANI",
   components: {
     WorkBackground,
-    MrdrinksContent,
+    GaabarberContent,
     BackButton,
     LockButton,
     LogoPhone,
