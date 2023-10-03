@@ -118,37 +118,40 @@ export default defineComponent({
       {
         id: 1,
         blogMainclass: "galery-card blog-card",
-        blogName1: "Cookie consent & Cookie policy",
-        blogNomber1: "galery-card blog-card blog-card11",
+        blogName1:
+          "WooCommerce pitfalls and why to solve them with the help of specialists",
+        blogNomber1: "galery-card blog-card blog-card12",
         blogLink1:
-          "https://sharkani.com/2022/10/suhlas-so-spracovanim-suborov-cookie/",
-        blogName2: "Subdomen's and problem's with them",
-        blogNomber2: "galery-card blog-card blog-card1",
+          "https://www.ecommercebridge.sk/uskalia-woocommerce-a-preco-ich-riesit-s-pomocou-specialistov/",
+
+        blogName2: "Security and WordPress",
+        blogNomber2: "galery-card blog-card blog-card13",
         blogLink2:
-          "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
-        blogName3: "Footer, an underrated part of the site",
-        blogNomber3: "galery-card blog-card blog-card2",
+          "https://www.ecommercebridge.sk/bezpecnost-a-wordpress-ako-sa-chranit-pred-kybernetickymi-hrozbami/",
+
+        blogName3: "Cookie consent & Cookie policy",
+        blogNomber3: "galery-card blog-card blog-card11",
         blogLink3:
-          "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
-        blogName4: "QR codes and their use in 2022",
-        blogNomber4: "galery-card blog-card blog-card3",
+          "https://sharkani.com/2022/10/suhlas-so-spracovanim-suborov-cookie/",
+        blogName4: "Subdomen's and problem's with them",
+        blogNomber4: "galery-card blog-card blog-card1",
         blogLink4:
-          "https://sharkani.com/2022/03/qr-kody-a-ich-vyuzitie-v-roku-2022/",
-        blogName5: "Trends in domains in 2022",
-        blogNomber5: "galery-card blog-card blog-card4",
+          "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
+        blogName5: "Footer, an underrated part of the site",
+        blogNomber5: "galery-card blog-card blog-card2",
         blogLink5:
-          "https://sharkani.com/2022/02/trendy-v-domenach-v-roku-2022/",
-        blogName6: "Why buy a website from SHARKANI",
-        blogNomber6: "galery-card blog-card blog-card5",
+          "https://sharkani.com/2022/04/footer-prehliadana-pata-stranky/",
+        blogName6: "QR codes and their use in 2022",
+        blogNomber6: "galery-card blog-card blog-card3",
         blogLink6:
-          "https://sharkani.com/2021/12/preco-si-kupit-web-od-sharkani-dame-vam-17-dovodov-2/",
-        blogName7: "Correct font size for the web",
-        blogNomber7: "galery-card blog-card blog-card6",
+          "https://sharkani.com/2022/03/qr-kody-a-ich-vyuzitie-v-roku-2022/",
+        blogName7: "Trends in domains in 2022",
+        blogNomber7: "galery-card blog-card blog-card4",
         blogLink7:
-          "https://sharkani.com/2021/12/aka-je-spravna-velkost-pisma-pre-web/",
+          "https://sharkani.com/2022/02/trendy-v-domenach-v-roku-2022/",
       },
       {
-        id: 1,
+        id: 2,
         blogMainclass: "galery-card blog-card",
         blogName1: "How to prepare a website for the holidays",
         blogNomber1: "galery-card blog-card blog-card7",
@@ -166,6 +169,14 @@ export default defineComponent({
         blogNomber4: "galery-card blog-card blog-card10",
         blogLink4:
           "https://sharkani.com/2021/05/toto-su-najcastejsie-chyby-na-webe-ako-ich-opravit//",
+        blogName6: "Why buy a website from SHARKANI",
+        blogNomber6: "galery-card blog-card blog-card5",
+        blogLink6:
+          "https://sharkani.com/2021/12/preco-si-kupit-web-od-sharkani-dame-vam-17-dovodov-2/",
+        blogName7: "Correct font size for the web",
+        blogNomber7: "galery-card blog-card blog-card6",
+        blogLink7:
+          "https://sharkani.com/2021/12/aka-je-spravna-velkost-pisma-pre-web/",
       },
     ],
   }),
@@ -260,7 +271,9 @@ h2.blog {
 .blog-card7,
 .blog-card8,
 .blog-card9,
-.blog-card10 {
+.blog-card10,
+.blog-card11,
+.blog-card12 {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -306,6 +319,12 @@ h2.blog {
 }
 .blog-card11 {
   background-image: url("../assets/blog_cookie.jpg");
+}
+.blog-card12 {
+  background-image: url("../assets/woo-bridge.jpg");
+}
+.blog-card13 {
+  background-image: url("../assets/wpsec.jpg");
 }
 .blog-card:before {
   content: "";
