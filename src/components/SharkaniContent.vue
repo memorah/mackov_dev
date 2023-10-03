@@ -84,7 +84,7 @@
             >
             |<a
               class="text-link"
-              href="https:/hisense-klima.cz/"
+              href="https://hisense-klima.cz/"
               target="_blank"
             >
               hisense-klima.cz</a
@@ -94,9 +94,6 @@
               href="https://kepscaffeteria.sk/"
               target="_blank"
             >
-              kepscaffeteria.sk</a
-            >
-            |<a class="text-link" href="https://kpkm.sk/" target="_blank">
               kepscaffeteria.sk</a
             >
             |<a class="text-link" href="https://maxmarr.sk/" target="_blank">
@@ -231,11 +228,13 @@
         </p>
       </li>
       <li>
-        <a href="mailto:hello@scrollers.studio"
-          ><button class="shrk-btn" target="_blank">
-            hello@scrollers.studio
-          </button></a
+        <a
+          href="mailto:hello@scrollers.studio"
+          class="shrk-btn"
+          target="_blank"
         >
+          hello@scrollers.studio
+        </a>
       </li>
     </ul>
   </div>
@@ -249,8 +248,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-button.shrk-btn {
+a.shrk-btn {
   width: 100%;
+  display: inline-block;
   padding: 13px 0;
   border-radius: 5px;
   border-color: #f2e9e9;
@@ -260,7 +260,7 @@ button.shrk-btn {
   font-size: 0.9rem;
   opacity: 1;
 }
-button.shrk-btn:hover {
+a.shrk-btn:hover {
   filter: drop-shadow(0px 0px 7px rgba(255, 255, 255, 0.9));
   -webkit-filter: drop-shadow(0px 0px 7px rgba(255, 255, 255, 0.9));
 }
