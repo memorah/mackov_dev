@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <router-link to="/Work/LanguageBakery">
+      <router-link to="/Work/MrDrinks">
         <div class="icon-div animation-v1">
           <div class="card card6"></div>
           <h2>Mr.Drinks<br />Slovakia</h2>

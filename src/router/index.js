@@ -240,6 +240,33 @@ const routes = [
     },
   },
   {
+    path: "/Work/MrDrinks",
+    name: "Mr.Drinks Eshop",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/MrDrinks.vue"),
+    meta: {
+      title: `mackov.dev`,
+      metaTags: [
+        {
+          name: "description",
+          content: `mackov.dev`,
+        },
+        {
+          property: "og:description",
+          content: `mackov.dev`,
+        },
+        {
+          name: "theme-color",
+          content: "#000000",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      ],
+    },
+  },
+  {
     path: "/Work/GAABarberShop",
     name: "GAABarberShop",
     component: () =>
