@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <BackButton />
-    <GaabarberContent />
+    <SharkaniContent />
     <WorkBackground />
     <LockButton />
     <LogoPhone />
@@ -10,7 +10,7 @@
 
 <script>
 import WorkBackground from "@/components/WorkBackground.vue";
-import GaabarberContent from "@/components/GaabarberContent.vue";
+import SharkaniContent from "@/components/SharkaniContent.vue";
 import BackButton from "@/components/BackButton.vue";
 import LockButton from "@/components/LockButton.vue";
 import LogoPhone from "@/components/LogoPhone.vue";
@@ -18,7 +18,7 @@ export default {
   name: "SHARKANI",
   components: {
     WorkBackground,
-    GaabarberContent,
+    SharkaniContent,
     BackButton,
     LockButton,
     LogoPhone,
