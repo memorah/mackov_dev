@@ -64,14 +64,14 @@ export default {
 
 .slide.x:after {
   content: "";
-  background-image: url("../assets/Cube/cube6.jpg");
+  background-image: url("../assets/Cube/wordpress.svg");
   -webkit-transform: translateZ(100px) rotateZ(90deg);
   transform: translateZ(100px) rotateZ(90deg);
 }
 
 .slide.x:before {
   content: "";
-  background-image: url("../assets/Cube/cube4.jpg");
+  background-image: url("../assets/Cube/vue.svg");
   -webkit-transform: translateZ(-100px) rotateZ(-90deg);
   transform: translateZ(-100px) rotateZ(-90deg);
 }
@@ -83,14 +83,14 @@ export default {
 
 .slide.y:after {
   content: "";
-  background-image: url("../assets/Cube/cube2.jpg");
+  background-image: url("../assets/Cube/woocomm.svg");
   -webkit-transform: translateZ(100px) scale(-1);
   transform: translateZ(100px) scale(-1);
 }
 
 .slide.y:before {
   content: "";
-  background-image: url("../assets/Cube/cube5.jpg");
+  background-image: url("../assets/Cube/divi.svg");
   -webkit-transform: translateZ(-100px);
   transform: translateZ(-100px);
 }
@@ -102,14 +102,14 @@ export default {
 
 .slide.z:after {
   content: "";
-  background-image: url("../assets/Cube/training.jpg");
+  background-image: url("../assets/Cube/training.svg");
   -webkit-transform: translateZ(100px);
   transform: translateZ(100px);
 }
 
 .slide.z:before {
   content: "";
-  background-image: url("../assets/Cube/cube6.jpg");
+  background-image: url("../assets/Cube/uiux.svg");
   -webkit-transform: translateZ(-100px);
   transform: translateZ(-100px);
 }
