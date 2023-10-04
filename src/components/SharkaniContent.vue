@@ -33,7 +33,14 @@
       <li>
         <p>
           <span class="text"
-            ><a class="text-link" href="https://walcon.sk/" target="_blank">
+            ><a
+              class="text-link"
+              href="https://terminulekara.sk/"
+              target="_blank"
+            >
+              terminulekara.sk</a
+            >
+            |<a class="text-link" href="https://walcon.sk/" target="_blank">
               walcon.sk</a
             >
             |<a

@@ -36,7 +36,7 @@
 
       <li>
         <p>
-          <span class="important-text">Skills&tools: </span
+          <span class="important-text">Skills & Tools: </span
           ><span class="text"
             >Frontend development | UX & UI design | SEO optimalisation | CSS |
             HTML | VUE.js | JS | XD | illustrator | WordPress | DIVI |
@@ -46,7 +46,7 @@
       </li>
       <li>
         <p>
-          <span class="important-text">Senior Web developer</span
+          <span class="important-text">Head of wep development</span
           ><span class="text"> in&nbsp;</span>
           <a
             class="grey-link"
