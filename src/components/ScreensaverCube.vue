@@ -83,14 +83,14 @@ export default {
 
 .slide.y:after {
   content: "";
-  background-image: url("../assets/Cube/woocomm.svg");
+  background-image: url("../assets/Cube/divi.svg");
   -webkit-transform: translateZ(100px) scale(-1);
   transform: translateZ(100px) scale(-1);
 }
 
 .slide.y:before {
   content: "";
-  background-image: url("../assets/Cube/divi.svg");
+  background-image: url("../assets/Cube/woocomm.svg");
   -webkit-transform: translateZ(-100px);
   transform: translateZ(-100px);
 }
