@@ -79,7 +79,7 @@ export default {
 }
 .csstransforms3d .cube .back {
   transform: rotateY(180deg) rotateX(0deg) translateZ(100px);
-  background-image: url("../assets/Cube/divi.jpg");
+  background-image: url("../assets/Cube/vue.jpg");
 }
 .csstransforms3d .cube .left {
   transform: rotateY(-90deg) translateZ(100px);
@@ -87,11 +87,11 @@ export default {
 }
 .csstransforms3d .cube .right {
   transform: rotateY(90deg) translateZ(100px);
-  background-image: url("../assets/Cube/divi.jpg");
+  background-image: url("../assets/Cube/UxUi.jpg");
 }
 .csstransforms3d .cube .top {
   transform: rotateX(90deg) translateZ(100px);
-  background-image: url("../assets/Cube/divi.jpg");
+  background-image: url("../assets/Cube/woocomm.jpg");
 }
 .csstransforms3d .cube .bottom {
   transform: rotateX(-90deg) rotateZ(-180deg) translateZ(100px);
